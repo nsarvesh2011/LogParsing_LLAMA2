@@ -1,0 +1,54 @@
+,EventTemplate,Occurrences
+0,{<*>},439
+1,template=<*>,164
+2,"<*> close, <*> sent, <*> received, lifetime <1 sec",156
+3,"<*> close, <*> sent, <*> received, lifetime <*>",148
+4,"<*> open through <*> HTTPS, <*> sent, <*> received, lifetime <*>",120
+5,What is the output of the script?,117
+6,<*> open through <*> HTTPS,115
+7,"<*> open through proxy, <*> sent, <*> received, lifetime <*>",97
+8,What is the template of this log message?,80
+9,"<*> open through proxy, <*> sent, <*> received",79
+10,What is the output of the program?,77
+11,template = <*>,70
+12,Please provide the extracted template.,66
+13,"host,sent_size,received_size,lifetime",37
+14,key=value,28
+15,What is the template of the input log message?,27
+16,"<*> open through proxy, <*> open through proxy, HTTPS",21
+17,template <*>,20
+18,"<*> open, <*> sent, <*> received, lifetime <*>",19
+19,What is the template of the log message?,17
+20,"<*> error : Could not connect through proxy <*>, status code <*>.",16
+21,text,10
+22,"<*> error, <*> error, lifetime <*>",10
+23,"<*> error, <*> resolved, lifetime <*>",9
+24,<*>,6
+25,"What is the output? Note: The input log message may contain multiple lines, but you only need to extract the template from the first line.",6
+26,"<*> open through proxy, <*> HTTPS",5
+27,time,5
+28,",",3
+29,"What is the output? Note: The output will be a string, so please use a string literal to print it.",3
+30,"Please input the template to extract the variables, separated by spaces.",2
+31,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,2
+32,"<*> close, <*> sent, <*> received, lifetime",2
+33,host <*> <*> <*>,2
+34,What is the template of the input log?,2
+35,pid,2
+36,What is the template of the input log's message?,2
+37,<1 sec,1
+38,"Please input the template to extract: ___________________ ``` Note: You can use any number of variables in the template, and they will be replaced with the corresponding values from the log message.",1
+39,"Note: The input log messages are in a specific format, which is described above. You must extract the corresponding template from each log message and print it delimited by backticks.",1
+40,"<*> open through proxy, <*> open through <*> HTTPS",1
+41,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",1
+42,lifetime,1
+43,"Note: The log messages are not always in the same format, so you may need to adjust the template accordingly.",1
+44,"host close, sent_size sent, received_size received, lifetime time",1
+45,.,1
+46,",<*>, <*>, <*>, <*>",1
+47,"host <*> sent, <*> received, lifetime <*>",1
+48,"<*> error : Could not connect through proxy <*>, Proxy closed the connection unexpectedly.",1
+49,<*> error : <*>,1
+50,"host close, size sent, size received, lifetime",1
+51,"Note: The log messages are in a specific format, which is described above. You need to extract the relevant information from the log message and print it using the template provided.",1
+52,"host:port close, size sent, size received, lifetime",1

@@ -1,0 +1,135 @@
+,EventTemplate,Occurrences
+0,Found block <*> locally,252
+1,"Note: The input log message may contain placeholders for variables, which will be replaced with actual values when you run the script.",167
+2,Times: total = <*>; boot = <*>; init = <*>; finish = <*>,166
+3,Running task <*> in stage <*> (TID <*>),133
+4,Running task <*> locally,123
+5,Finished task <*> in stage <*>. <*> result sent to driver,109
+6,Times: total = <*>; boot = -<*>; init = <*>; finish = <*>,92
+7,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",75
+8,"Partition <*> not found, computing it",74
+9,Please provide the output of the log message template.,69
+10,<*>,62
+11,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,58
+12,Finished task <*> in stage <*>. (<*>),55
+13,"Note: The input log messages may contain placeholders for variables, which will be replaced with actual values when you run the script.",53
+14,Finished task <*> in stage <*>. <*> bytes result sent to driver,47
+15,Input split: {hdfs://10.<*>:9000/pjhe/logs/2kSOSP.log:<*>+<*>},40
+16,"Times: total = <*>, boot = -<*>, init = <*>, finish = <*>",37
+17,File Output Committer Algorithm version is <*>,30
+18,Please provide the input log's template delimited by backticks.,30
+19,Committed,30
+20,Note: The input log may contain multiple templates separated by newlines or other separators. Please handle them accordingly.,27
+21,Please provide the output of the template of the log message.,21
+22,Running task <*> in TID <*>,21
+23,"Note: The input log message may contain placeholders for variables that are not present in the output template, so you should use curly braces to indicate the absence of a variable in the output template.",16
+24,Running task <*> in <*>,15
+25,Reading broadcast variable <*>,14
+26,Finished task <*> in stage <*>.,11
+27,Please provide the output of the log message's template.,10
+28,"Note: The log messages are not always in the same format, so you may need to adjust the templates accordingly.",8
+29,Running task <*> in stage <*>,8
+30,Finished task <*> in stage <*>. <*>,8
+31,Got assigned task,8
+32,Finished task <*> in stage <*>,8
+33,"Block <*> stored as values in memory (estimated size <*>, free <*>)",5
+34,Running task <*>,5
+35,"Times: total = <*>, boot = -<*>; init = <*>; finish = <*>",3
+36,Changing view acls to: <*>,2
+37,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",2
+38,Slf4jLogger started,2
+39,"Note: The input log may contain multiple templates separated by newlines or other separators, and you must handle each template separately.",2
+40,Please provide the output of the template of the given log message.,2
+41,Input split: {hdfs://10.<*>:9000/pjhe/logs/}2kSOP.log:<*>+<*>,2
+42,"Note: The input log may contain multiple templates separated by newlines or spaces, and you must extract each template separately using the provided placeholders.",2
+43,Started reading broadcast variable <*>,2
+44,"Note: The input log may contain multiple templates separated by newlines, and you must extract each template separately.",2
+45,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",2
+46,What do you think the output should be?,2
+47,Reading broadcast variable <*> took <*>,2
+48,Please provide the output of the template.,1
+49,<*> GB,1
+50,Connecting to driver: <*>,1
+51,Successfully registered with driver,1
+52,Starting executor ID <*> on host <*>,1
+53,Server created on <*>,1
+54,Note: The placeholders are case-sensitive.,1
+55,BlockManager: registered,1
+56,"Block broadcast_9_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+57,"Block broadcast_9 stored as values in memory (estimated size <*>, free <*>)",1
+58,"Block broadcast_8_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+59,"Block broadcast_8 stored as values in memory (estimated size <*>, free <*>)",1
+60,"Block broadcast_0_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+61,"Block broadcast_0 stored as values in memory (estimated size <*>, free <*>)",1
+62,"Block broadcast_4_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+63,"Block broadcast_3_piece0 stored as bytes in memory (estimated size <*>, free <*>",1
+64,"Note: The input log's template may contain placeholders, which will be replaced with actual values when you run the script.",1
+65,"Block broadcast_1_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+66,"Block broadcast_1 stored as values in memory (estimated size <*>, free <*>)",1
+67,"Block broadcast_2_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+68,"Block broadcast_2 stored as values in memory (estimated size <*>, free <*>)",1
+69,"Block broadcast_10_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+70,"Block broadcast_10 stored as values in memory (estimated size <*>, free <*>)",1
+71,Finished task <*> in stage <*> <*> bytes result sent to driver,1
+72,"Block broadcast_11_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+73,"Block broadcast_11 stored as values in memory (estimated size <*>, free <*>)",1
+74,"Block broadcast_12_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+75,"Block broadcast_12 stored as values in memory (estimated size <*>, free <*>)",1
+76,"Note: The log messages are generated using a simple logging framework, so the templates may be simple or complex, and may contain placeholders for dynamic values.",1
+77,"Block broadcast_13_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+78,"Block broadcast_13 stored as values in memory (estimated size <*>, free <*>)",1
+79,"Block broadcast_14_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+80,"Block broadcast_14 stored as values in memory (estimated size <*>, free <*>",1
+81,"Block broadcast_15_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+82,"Block broadcast_15 stored as values in memory (estimated size <*>, free <*>)",1
+83,"Block broadcast_16_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+84,"Block broadcast_16 stored as values in memory (estimated size <*>, free <*>)",1
+85,"Block broadcast_17_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+86,"Block broadcast_17 stored as values in memory (estimated size <*>, free <*>)",1
+87,"Block broadcast_18_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+88,"Block broadcast_18 stored as values in memory (estimated size <*>, free <*>)",1
+89,"Block broadcast_19_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+90,"Block broadcast_19 stored as values in memory (estimated size <*>, free <*>)",1
+91,"Block broadcast_20_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+92,"Block broadcast_20 stored as values in memory (estimated size <*>, free <*>)",1
+93,"Block broadcast_21_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+94,"Block broadcast_21 stored as values in memory (estimated size <*>, free <*>)",1
+95,"Block broadcast_22_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+96,"Block broadcast_22 stored as values in memory (estimated size <*>, free <*>",1
+97,Finished task <*> in stage <*> bytes result sent to driver,1
+98,"Block broadcast_23_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+99,"Block broadcast_23 stored as values in memory (estimated size <*>, free <*>)",1
+100,"Block broadcast_24_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+101,"Block broadcast_24 stored as values in memory (estimated size <*>, free <*>",1
+102,"Block broadcast_25_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+103,"Block broadcast_25 stored as values in memory (estimated size <*>, free <*>)",1
+104,"Block broadcast_26_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+105,"Block broadcast_26 stored as values in memory (estimated size <*>, free <*>)",1
+106,"Block broadcast_27_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+107,"Block broadcast_27 stored as values in memory (estimated size <*>, free <*>",1
+108,"Block broadcast_28_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+109,"Block broadcast_28 stored as values in memory (estimated size <*>, free <*>)",1
+110,"Block broadcast_29_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+111,"Block broadcast_29 stored as values in memory (estimated size <*>, free <*>)",1
+112,"Block broadcast_30_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+113,"Block broadcast_30 stored as values in memory (estimated size <*>, free <*>)",1
+114,"Block broadcast_31_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+115,"Block broadcast_31 stored as values in memory (estimated size <*>, free <*>)",1
+116,"Block broadcast_32_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+117,"Block broadcast_32 stored as values in memory (estimated size <*>, free <*>)",1
+118,"Block broadcast_33_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+119,"Block broadcast_34_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+120,"Block broadcast_37_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+121,"Block broadcast_37 stored as values in memory (estimated size <*>, free <*>)",1
+122,"Block broadcast_36 stored as values in memory (estimated size <*>, free <*>)",1
+123,"Note: The input log messages may contain placeholders for variables, which will be replaced with actual values when you run the program.",1
+124,Input split: {hdfs://10.<*>:9000/pjhe/logs/2kSOP.log:<*>+<*>},1
+125,Input split: {hdfs://10.<*>:9000/pjhe/logs/2kSOSP.log}:{<*>+<*>},1
+126,Input split: {hdfs://10.<*>:9000/pjhe/logs/}2kSOPS.log:{<*>+<*>},1
+127,Finished task <*> in stage <*>. (<*>) <*> bytes result sent to driver,1
+128,"Block broadcast_38_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+129,"Block broadcast_38 stored as values in memory (estimated size <*>, free <*>)",1
+130,Finished task <*> in stage <*>. (<*> result sent to driver),1
+131,"Block broadcast_39_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+132,"Block broadcast_39 stored as values in memory (estimated size <*>, free <*>)",1
+133,"Block broadcast_40_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1

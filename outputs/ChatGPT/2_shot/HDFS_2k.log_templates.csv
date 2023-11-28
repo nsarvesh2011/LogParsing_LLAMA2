@@ -1,0 +1,675 @@
+,EventTemplate,Occurrences
+0, and ,467
+1,": This is the name of the block (i.e., ",35
+2,: This placeholder represents the value of the ,30
+3,") in the log message. In this case, it is ",2
+4,": This placeholder represents the ID of the block that was added to the map.
+* ",12
+5,"
+",324
+6, is replaced by ,30
+7,"
+PacketResponder {responder} for block {block} terminating.
+",78
+8,"
+So the template is ",19
+9,: ,201
+10,"
+Received {block} of size {size} from {ip_address}
+",66
+11,"
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {10.251.74.79:50010} is added to blk_-4794867979917102672, size 67108864
+",1
+12, and the block name is ,16
+13,", and the block name is ",1
+14,"
+Receiving {src} block blk_-{number} for {dest} terminating
+",54
+15," represents the overall structure of the log message, and ",18
+16," is replaced by ""blk_5165786360127153975""
+* ",1
+17," represent the IP address and port number of the node that added the block.
+* ",5
+18,: The value of the ,16
+19," is replaced by ""-29548654251973735""
+* ",1
+20,"
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.110.8:50010 is added to blk_-1661553043410372067, size 67108864.
+",1
+21," is replaced by ""-2530087534157630851""
+* ",1
+22,": The size of the block being added
+
+So, the full template would be: ",6
+23,"
+Verification {verification} succeeded for block {block}
+",1
+24,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir5/{block}
+",2
+25," symbol indicating that it's a negative number.
+* ",1
+26,": This placeholder represents the number of the block that was served.
+* ",2
+27,").
+* ",10
+28," is a number that corresponds to the specific block.
+* ",1
+29,"
+So the template of the log message is ",23
+30,": This placeholder represents the ID of the block that was being served, as specified in the log message.
+* ",1
+31," represents a placeholder for the block ID, and ",1
+32,": The ID of the block (e.g., ""blk_5126469776250053435"")
+* ",1
+33,": This is the block ID or name that was being served.
+* ",1
+34,": This place holder represents the ID of the block that the packet was served from, followed by a number that indicates the specific instance of the block (e.g. blk_2969087638814291714).
+* ",1
+35, is the block number and ,1
+36, and the size of the block being added is ,8
+37,: This placeholder will be replaced with the value of the ,4
+38,": This placeholder represents the IP address and port number of the node that added the block to the map.
+* ",9
+39,": The ID of the block that was added.
+* ",1
+40," is replaced by ""-6956067134432991406""
+* ",1
+41," is replaced by ""blk_7481361125021302112""
+* ",1
+42," is replaced by ""-3249711809227781266""
+* ",1
+43," is replaced by ""-1055254430948037872""
+* ",1
+44, is replaced by the value ,4
+45,": The block that was added to the map.
+* ",17
+46," is replaced by ""-8924134715029713489""
+* ",1
+47," is replaced by ""blk_278357163850888""
+* ",1
+48, and the variables are enclosed in backticks ,3
+49," is replaced by ""-6836642008179678048""
+* ",1
+50,": This is the ID of the block (i.e., ",16
+51,"
+Receiving {src} block blk_7672124247291403094 dest: {dest}
+",1
+52,": This is the name of the responder.
+* ",3
+53,": This placeholder represents the size of the block being added to the map.
+* ",3
+54,": This placeholder represents the text after the first colon in the log message, which is the name of the block being added. In this case, it is ""blk_5095897972833086609"".
+* ",1
+55," is replaced by ""-5511630179413516751""
+* ",1
+56," is replaced by ""-5404881839098659470""
+* ",1
+57,"
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {10.250.11.194:50010} is added to blk_-1635752698830216319, size {67108864}
+",1
+58," is replaced by ""blk_446513188203036714""
+* ",1
+59," is replaced by ""6285161494041403917""
+* ",1
+60," is replaced by ""-6995454028444097802""
+* ",1
+61,": The port number of the system that added the block.
+* ",2
+62,"
+Served {block} for {client_ip} terminating
+",6
+63," is a placeholder for the actual block ID, and ",1
+64," is a placeholder for the block ID, and ",1
+65, is a placeholder for the value ,2
+66," is a placeholder for the value of the first field in the log message, which is the block number.
+* ",3
+67,"
+Served {block} for block {blk_} to /{IP address}
+",2
+68,".
+
+So, the template of the log message is ",1
+69,": This placeholder represents the ID of the block that the packet was served from, followed by a number that indicates the specific block (e.g., blk_3169060243663461885).
+* ",1
+70,": This is a placeholder for the block ID that was encountered in the log message.
+* ",1
+71,": The ID of the block (e.g., ""blk_6106884317961925960"")
+* ",1
+72,"
+Served {block} for /{ip_address}
+",4
+73,": This place holder represents the number of the block that the packet was served for.
+* ",1
+74,": This placeholder represents the ID of the block that was served, which is preceded by a hyphen (-) to indicate that it's a block ID.
+* ",3
+75,"
+Served {block} for block {blk_} to /{ip}
+",1
+76,") because it contains an underscore.
+* ",1
+77," is the variable that represents the block name or ID.
+* ",1
+78, is a placeholder for the actual value of the ,2
+79,".
+
+So, the template of the log message is: ",1
+80,": The IP address of the node that the block is being added to the invalidSet for.
+* ",136
+81,": The IP address of the server hosting the NameSystem.
+* ",30
+82,": The IP address of the entity adding the block to the invalid set.
+* ",3
+83,": The IP address of the node that is adding the block to the invalid set.
+* ",3
+84,": The IP address of the node that the block is being added to the invalidSet on.
+* ",1
+85,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{51}/{block}
+",1
+86," is a placeholder for the actual file name, and ",5
+87,": The name of the file being deleted.
+* ",2
+88,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir42/{block}
+",1
+89,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{33}/{file}
+",2
+90,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir32/{file}
+",2
+91,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir6/{file}
+",2
+92,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/{file}
+",8
+93,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{57}/{file}
+",2
+94,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{38}/{file}
+",2
+95,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir0/{block}
+",2
+96,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir48/{file}
+",1
+97,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir23/{file}
+",2
+98,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{13}/{file}
+",1
+99,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{30}/{file}
+",1
+100,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir47/{block}
+",1
+101,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir21/{file}
+",1
+102,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir4/{file}
+",1
+103,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{40}/{block}
+",3
+104,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{50}/{file}
+",1
+105,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{40}/{file}
+",2
+106,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir24/{block}
+",3
+107,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir7/{file}
+",1
+108," is replaced by ""blk_5277338321835341602""
+* ",1
+109,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{8}/{block}
+",1
+110,": This variable represents the block that is being added to the map.
+* ",2
+111," is replaced by ""-6592952246351162022""
+* ",1
+112," is replaced by ""-6449891932967810179""
+* ",1
+113," is replaced by ""-3663004104512304532""
+* ",1
+114,": This placeholder represents the name of the block being added to the map.
+* ",8
+115,": This placeholder can be replaced with any value, in this case, it is ",3
+116," is replaced by ""blk_939695665085237271""
+* ",1
+117," is replaced by ""-3990317238913332296""
+* ",1
+118," is replaced by ""-2600305892036631113""
+* ",1
+119," is replaced by ""-2144263949276079479""
+* ",1
+120," is the source IP address, and ",4
+121," parameter in the log message. In this case, it is ",1
+122, is replaced by the value of ,2
+123," is replaced by ""-2402036602753320612""
+* ",1
+124," is replaced by ""-8145226289286457574""
+* ",1
+125," is replaced by ""blk_5809900021002850724""
+* ",1
+126,"
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.111.37:50010 is added to blk_-7603740654202748654 size 67108864
+",1
+127," is the pattern that appears between the backticks, and ",1
+128," is replaced by ""-3170270010972115378""
+* ",1
+129, and the size is ,5
+130," is replaced by ""-8502460962248995911""
+* ",1
+131," is replaced by ""-1435656632270396446""
+* ",1
+132,"
+Served {block} to /{ip_address}
+",1
+133,": The ID of the block (e.g., ""blk_4581070264530964999"")
+* ",1
+134,"
+Got exception while serving {block} to /{ip_address}
+",1
+135,"
+{responder} for {block} terminating: Got exception while serving {blk_-8082428389627750477} to /{10.251.71.97}
+",1
+136,": The number of digits in the block ID (e.g., ""2101007907134483259"")
+* ",1
+137,"
+BLOCK* {responder} for block {block} updated: {ip_address}:{port} is added to blk_{size}
+",1
+138,": This placeholder represents the name of the block that was added to the map.
+* ",1
+139," is replaced by ""-8022986908643041177""
+* ",1
+140," is replaced by ""-5400783031085008882""
+* ",1
+141,": This indicates that a new block has been added to the blockchain with a specific ID.
+* ",1
+142," is replaced by ""blk_578261619176233743""
+* ",1
+143,": The ID of the block being added to the map.
+* ",2
+144," is replaced by ""-4208396523159735354""
+* ",1
+145,", and ",1
+146," is replaced by ""-4092973201423074374""
+* ",1
+147," in the log message.
+
+So, the template of the log message is ",3
+148,": The ID of the block (e.g., ""blk_6702054389824523327"")
+* ",1
+149,": This placeholder represents the type of exception that occurred while serving the request.
+
+So, in this case, the template would be: ",1
+150," in the log message.
+
+So, the template of the log message is: ",1
+151," is a placeholder for the actual block name or ID, and ",1
+152,": The IP address of the node that the block is being added to.
+* ",4
+153,": The IP address of the node that is storing the block.
+* ",1
+154,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir2/{block}
+",3
+155,": The ID of the block containing the file.
+* ",1
+156,": The subdirectory where the block is located.
+* ",1
+157,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir34/{file}
+",2
+158,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir1/{file}
+",1
+159,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{55}/{file}
+",1
+160,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{15}/{block}
+",2
+161,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir34/{blk_-4110699195744660699}
+",1
+162,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir10/{file}
+",2
+163,"
+Deleting {block} for file {file} terminating
+",1
+164,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir60/{block}
+",1
+165,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir19/{block}
+",1
+166,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir27/{file}
+",1
+167,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir59/{block}
+",1
+168,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir1/{block}
+",2
+169,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{16}/{block}
+",1
+170," is replaced by ""blk_1151012386083696649""
+* ",1
+171," is replaced by ""-5542336029922582303""
+* ",1
+172," is replaced by ""-6442394521537090621""
+* ",1
+173,"
+BLOCK* {ask} for block {blk_-5140072410813878235} terminating
+",1
+174," is replaced by ""-989798817617753264""
+* ",1
+175," is replaced by ""-9049344623659872649""
+* ",1
+176," is replaced by ""blk_5938666289587069744""
+* ",1
+177,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{592144596063478}
+",1
+178,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir27/{block}
+",2
+179,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir33/{file}
+",1
+180," is replaced by ""-7893636450787030202""
+* ",1
+181,"
+BLOCK* {ask} for block {blk_} terminating
+",1
+182," is replaced by ""4992622607400168655""
+* ",1
+183," map key that was updated.
+* ",2
+184," is replaced by ""-5861348317118763621""
+* ",1
+185," is replaced by ""-1704027189958470814""
+* ",1
+186," is replaced by ""-2023442822091562967""
+* ",1
+187," is replaced by ""blk_1779145401405339993""
+* ",1
+188," in this case.
+
+So the template for this log message is ",1
+189,": This placeholder represents the ID of the block that the packet was served from, followed by a number that indicates the specific block (e.g., blk_2262752117989012641).
+* ",1
+190,", which is also ",1
+191,"
+{responder} for {block} terminating: Got exception while serving {blk_-3140031507252212554} to /{10.250.7.244}
+",1
+192,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{34}/{block}
+",2
+193,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{31}/{file}
+",1
+194,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{42}/{block}
+",1
+195,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir26/{file}
+",1
+196,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{62}/{block}
+",1
+197,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir5/{file}
+",1
+198,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir16/{file}
+",1
+199,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir33/{block}
+",1
+200," is replaced by ""blk_1833093108290599780""
+* ",1
+201,"
+Received {block} of size {size} from {ip}
+",1
+202," is replaced by ""-747046374856916711""
+* ",1
+203,": This placeholder represents any value that appears between ""blockMap updated"" and the end of the message. In this case, it is ""10.251.214.67:50010"".
+* ",1
+204," is replaced by ""-900758580041645081""
+* ",1
+205," is replaced by ""blk_1756478622414930264""
+* ",1
+206," is replaced by ""-6555060221133060529""
+* ",1
+207," is replaced by ""-4052810234606327693""
+* ",1
+208," field in the log message. In this case, it is ",1
+209,": This is the ID of the block being processed (i.e., ",1
+210," is replaced by ""blk_6308888821787547357""
+* ",1
+211," is replaced by ""-4651707530079874243""
+* ",1
+212," is replaced by ""-5580048401594934039""
+* ",1
+213," is replaced by ""6640583412927022083""
+* ",1
+214,"
+BLOCK* NameSystem updated: 10.251.74.134:50010 is added to blk_28482383
+",1
+215," is replaced by ""blk_5813361416484537967""
+* ",1
+216," is replaced by ""-524128780228307052""
+* ",1
+217,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/{file}
+",1
+218,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir49/{file}
+",1
+219," is a placeholder for the actual file path, and ",1
+220,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir11/{file}
+",1
+221,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir9/{file}
+",1
+222," is a placeholder for the directory path where the file is located, which will also be replaced with the actual value in the log message.
+
+So the template of the log message would be: ",1
+223,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{30}/{block}
+",1
+224,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{18}/{file}
+",1
+225,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{44}/{file}
+",1
+226,": This variable represents the file being deleted, which is also delimited by backticks ("").
+
+So the full template for this log message is: ",1
+227,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir48/{block}
+",1
+228,": The ID of the block that was added to the block map.
+* ",3
+229," dest terminating
+",1
+230,"
+BLOCK* NameSystem.addStoredBlock: {blockMap} updated: {ipAddress}:{port} is added to blk_-{number} size {size}
+",2
+231," is replaced by ""-5352085087037370841""
+* ",1
+232," is replaced by ""-3253005280055520211""
+* ",1
+233," is replaced by ""blk_1526403491950199810""
+* ",1
+234," is replaced by ""-4510259260131940043""
+* ",1
+235,".
+",2
+236,": This variable represents the block mentioned in the log message.
+* ",4
+237," is replaced by ""-8657800226489501791""
+* ",1
+238," is replaced by ""-4875138366845786590""
+* ",1
+239," is replaced by ""6095704128062577668""
+* ",1
+240," is replaced by ""6675543598756975559""
+* ",1
+241," is replaced by ""-1932467763723526131""
+* ",1
+242," is replaced by ""-5961895238114806886""
+* ",1
+243,": The name of the block being added.
+* ",1
+244," is replaced by ""-1821104627978106102""
+* ",1
+245,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{58}/{file}
+",1
+246,"
+PacketResponder {responder} for block {block} terminating
+",1
+247,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir31/{file}
+",1
+248,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir3/{block}
+",1
+249,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{28}/{block}
+",1
+250,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{60}/{block}
+",1
+251,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir54/{block}
+",1
+252,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir39/{block}
+",2
+253,": This indicates the ID of the block that the node is being added to.
+* ",1
+254," is replaced by ""blk_3134656542322449478""
+* ",1
+255," is replaced by ""-3184700311670257792""
+* ",1
+256," is replaced by ""blk_5963655886023015963""
+* ",1
+257," is replaced by ""-5214060566378896158""
+* ",1
+258," is replaced by ""707166530951154301""
+* ",1
+259," is replaced by ""-7794786562417612249""
+* ",1
+260,": This is the name of the block being processed (i.e., ",1
+261,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir30/{block}
+",1
+262,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{56}/{block}
+",1
+263,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{57}/{block}
+",1
+264,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir0/{file}
+",1
+265,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir4/{file}
+",1
+266,": This placeholder will be replaced with the number of the block being added.
+* ",1
+267,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir2/{file}
+",1
+268, placeholder corresponds to the value ,2
+269," is replaced by ""-4970213618915792510""
+* ",1
+270,"
+BLOCK* NameSystem.addStoredBlock: blockMap updated: {10.250.13.240:50010} is added to blk_4170936278386288557, size {67108864}
+",1
+271,"
+BLOCK* NameSystem.addStoredBlock: {blockMap} updated: {ipAddress}:{port} is added to blk_{blockNumber} size {size}
+",1
+272," is a placeholder for the source IP address, and ",1
+273," is replaced by ""-2895171018912807248""
+* ",1
+274,": The IP address of the node that is adding the block to its invalidSet.
+* ",1
+275,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{36}/{file}
+",1
+276,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{59}/{file}
+",1
+277,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{46}/{block}
+",1
+278,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir23/{block}
+",1
+279,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir6/{block}
+",1
+280,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir13/{block}
+",1
+281,"
+Deleting {file} for block {block} file /mnt/hadoop/dfs/data/current/subdir{43}/{block}
+",1
+282," is replaced by ""-1970947032352756307""
+* ",1
+283," are placeholders for the actual values of the responder ID and block ID, respectively. These values can be extracted by replacing the placeholders with the corresponding values from the log message.
+
+Therefore, the template of the input log message is ",1
+284,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir3/{file}
+",1
+285," is replaced by ""-6390296685077811803""
+* ",1
+286," is replaced by ""-6314365697827006048""
+* ",1
+287,"
+PacketResponder 0 for block blk_-3522956055443924791 terminating
+",1
+288," is replaced by ""-409558225151784282""
+* ",1
+289,"
+Receiving {src} block blk_{931297048899943584} dest: {dest}
+",1
+290,"
+BLOCK* NameSystem.allocateBlock: {block}
+",1
+291," is replaced by ""50010""
+* ",1
+292," is replaced by ""blk_2749066163012162435""
+* ",1
+293," is replaced by ""blk_2015610615789582788""
+* ",1
+294," is replaced by ""-2959268996938658555""
+* ",1
+295,"
+Deleting {file} file /mnt/hadoop/dfs/data/current/subdir{80}/{file}
+",1
+296,": The ID of the block that was added to the map.
+* ",1

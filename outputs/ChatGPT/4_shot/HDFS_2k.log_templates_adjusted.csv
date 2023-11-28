@@ -1,0 +1,47 @@
+,EventTemplate,Occurrences
+0,PacketResponder <*> terminating,311
+1,Receiving block <*> src: <*> dest: <*>,292
+2,Deleting block <*> file <*>,263
+3,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>,214
+4,Received block <*> of size <*> from <*>,201
+5,"Note: The log messages are not always in the same format, and some may have additional information or different syntax.",181
+6,BLOCK* NameSystem.addStoredBlock: <*> updated: <*> is added to <*> size <*>,121
+7,BLOCK* NameSystem.allocateBlock: <*> <*>,115
+8,<*>:Got exception while serving <*> to <*>:,56
+9,"Note: The log messages are not always in the same format, and some may have different templates.",51
+10,<*>,31
+11,"Note: The log messages are not always in the same format, so you may need to adjust the templates accordingly.",29
+12,BLOCK* NameSystem.addStoredBlock: <*> is added to <*> size <*>,22
+13,Verification succeeded for <*>,18
+14,<*>.:Served block <*> to <*>:,17
+15,Served block <*> to <*>,16
+16,Received block <*> of size <*> from <*>.,11
+17,Served block <*> to <*>:,9
+18,<*>.{<*>|<*>}:Got exception while serving <*> to <*>:,5
+19,<*>.:Got exception while serving <*> to <*>:,3
+20,<*>:Served block <*> to <*>,3
+21,<*>.{<*>|<*>}.<*>:Got exception while serving <*> to <*>:,2
+22,<*>.{<*>|<*>}:<*> Served block <*> to <*>,2
+23,<*>:Got exception while serving <*> to <*>,2
+24,"<*>.{<*>,<*>}:Got exception while serving <*> to <*>:",2
+25,BLOCK* NameSystem.deleteBlock: <*> <*>,2
+26,Received block <*> src: <*> dest: <*> of size <*>,2
+27,<*>.{<*>|<*>}.*:<*> Served block <*> to <*>,1
+28,<*>.{<*>|<*>}.{<*>|<*>}Got exception while serving <*> to <*>:,1
+29,"<*>.{<*>,<*>}.<*>:Got exception while serving <*> to <*>:",1
+30,Please note that the templates may vary based on the log format and the placeholders in the input log message.,1
+31,<*>.{<*>|<*>}:Served block <*> to <*>,1
+32,<*>.{<*>|<*>}.<*>:Got exception while serving <*> to <*>,1
+33,"<*>.{<*>,<*>}:<*> Served block <*> to <*>",1
+34,<*> Served block <*> to {<*>},1
+35,<*>.:Served block <*> to <*>,1
+36,<*>.{<*>|<*>}.<*>:Served block <*> to <*>,1
+37,Starting thread to transfer <*> to <*>:,1
+38,"<*>.{<*>,<*>}:Served block <*> to <*>",1
+39,"<*>.{<*>,<*>}.{<*>,<*>}:Got exception while serving <*> to <*>:",1
+40,<*>.:Served <*> to <*>,1
+41,Please note that the templates may vary based on the input log message.,1
+42,Please provide the log message delimited by backticks.,1
+43,Please provide the log message template delimited by backticks.,1
+44,BLOCK* ask <*> to replicate <*> to datanode(s) <*>,1
+45,\n,1

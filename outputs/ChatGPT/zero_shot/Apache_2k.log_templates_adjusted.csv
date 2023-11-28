@@ -1,0 +1,22 @@
+,EventTemplate,Occurrences
+0,scoreboard slot <*>,752
+1,ok <*>,569
+2,"{""workerEnv"": ""in error state <*>""}",369
+3,workerEnv,165
+4,slot <*>,51
+5,Found child <*> in scoreboard slot <*>,31
+6,Directory index forbidden by rule:/var/www/html/,14
+7,module_jk child_init <*> -<*>,12
+8,"[""Directory index forbidden by rule: /var/www/html/""]",10
+9,workerEnv in error state <*>,5
+10,scoreboard,5
+11,<*> rule /var/www/html/,3
+12,Found child <*>,2
+13,Directory index forbidden by rule: /var/www/html/,2
+14,"{""scoreboard"": ""Can't find child <*>""}",2
+15,Can't find child <*> in scoreboard,2
+16,Can't find <*> in <*>,2
+17,backticks,1
+18,"""jk2_init() Can't find child <*>""",1
+19,client <*>,1
+20,<*> forbidden by rule /var/www/html/,1

@@ -1,0 +1,63 @@
+,EventTemplate,Occurrences
+0,"Read out cached package applicability for package: <*>. ApplicableState: <*>, CurrentState: <*>",519
+1,Session: <*> initialized by client WindowsUpdateAgent.,411
+2,Warning: <*>,280
+3,Expecting attribute name,224
+4,Failed to get next element,224
+5,Warning: Unrecognized packageExtended attribute.,196
+6,"Read out cached package applicability for package: <*>. ApplicableState: <*>, CurrentState:<*>",22
+7,Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE},18
+8,What is the template of the log message?,12
+9,Session: <*>,11
+10,<*>,8
+11,Expected output:,4
+12,"Creating NT transaction (seq <*>), objectname",3
+13,Loaded Servicing Stack v6.<*> with Core: <*>,2
+14,package_name,2
+15,Starting the TrustedInstaller main loop. Package name,2
+16,TrustedInstaller service starts successfully.<*>,2
+17,Warning: Unrecognized packageExtended attribute.<*>,2
+18,SQM: Cleaning up report files older than <*> days.<*>,2
+19,SQM: Requesting upload of all unsent reports.<*>,2
+20,SQM: Failed to start standard sample upload. [HRESULT = 0x80004005 - E_FAIL},2
+21,"SQM: Queued _all.sqm file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6",2
+22,SQM: Warning: Failed to upload all unsent reports. {HRESULT = 0x80004005 - E_FAIL},2
+23,No startup processing required TrustedInstaller service was not set as autostart or else a reboot is still pending.,2
+24,NonStart: Checking to ensure startup processing was not required. <*>,2
+25,") result 0x00000000, handle",2
+26,csi-perf,2
+27,"NonStart: Success, startup processing not required as expected. <*>",2
+28,Read out cached package applicability for package: <*>.,2
+29,Error: Package:,2
+30,Failed to create backup log cab. [HRESULT = 0x80070001 - ERROR_INVALID_FUNCTION},2
+31,Warning: Unrecognized packageExtended attribute.packageName,2
+32,"IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @0xb6fd90",1
+33,<*> CSI Store initialized,1
+34,Read out cached package applicability for package: <*>,1
+35,Reboot mark refs incremented to: <*>,1
+36,Starts,1
+37,Scavenge: Begin CSI Store package,1
+38,Performing <*> operations; <*> are not lock/unlock and follow:,1
+39,"Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+40,0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>,1
+41,"Created NT transaction (seq <*>) result 0x00000000, handle",1
+42,log_message,1
+43,Reboot mark refs: <*>,1
+44,Ending the TrustedInstaller main loop. Package name: <*>,1
+45,packageName,1
+46,Please provide the abstracted variables.,1
+47,"IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @0x116fa70",1
+48,.,1
+49,Offline image is: <*>,1
+50,"Disabling manifest caching, because the image is not writeable.",1
+51,Begin <*>@2016/9/28:<*>,1
+52,PopulateComponentFamiliesKey - End,1
+53,CSI Store <*> (0x000000000105d5b0),1
+54,Session,1
+55,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE,1
+56,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1
+57,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY,1
+58,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM,1
+59,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1
+60,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat,1
+61,0000000b CSI Store <*> (0x00000000002ec640),1

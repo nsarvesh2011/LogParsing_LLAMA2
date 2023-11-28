@@ -1,0 +1,331 @@
+,EventTemplate,Occurrences
+0,HTTPS,489
+1,What is the template for the input log message?,198
+2,proxy.cse.cuhk.edu.hk:<*>,166
+3,What is the template for the input log?,124
+4,Output:,51
+5,https://proxy.cse.cuhk.edu.hk:<*>,48
+6,www.example.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,28
+7,proxy.cse.cuhk.edu.hk:<*> HTTPS,27
+8,What is the template of the input log message?,23
+9,https://<*>,22
+10,t12.baidu.com:<*> https proxy.cse.cuhk.edu.hk:<*>,20
+11,"close, <*> bytes sent, <*> bytes received, lifetime <*>",18
+12,proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,17
+13,"www.example.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",16
+14,<*> <*> <*> <*>,14
+15,get.sogou.com:<*>,13
+16,get.sogou.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,13
+17,<*>,13
+18,Please provide a template to extract the corresponding variables.,13
+19,block.dropbox.com:<*>,12
+20,"{""clients6.google.com"": ""<*>"", ""proxy"": ""proxy.cse.cuhk.edu.hk"": ""<*>""}",12
+21,api.github.com:<*>,12
+22,oimagea5.ydstatic.com:<*>,11
+23,t12.baidu.com:<*>,11
+24,and,10
+25,bolt.dropbox.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,10
+26,What is the template of the input log?,9
+27,www.baidu.com:<*>,9
+28,"close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",9
+29,www.evernote.com:<*>,9
+30,{<*>},9
+31,short.weixin.qq.com:<*>,8
+32,client-cf.dropbox.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,8
+33,"are placeholders for the amount of data sent and received, respectively. The values are in bytes. *",7
+34,block.dropbox.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,7
+35,"{""clients4.google.com"": ""<*>"", ""proxy.cse.cuhk.edu.hk"": ""<*>""}",7
+36,security.ie.sogou.com:<*>,7
+37,sclick.baidu.com:<*> https://proxy.cse.cuhk.edu.hk:<*>,6
+38,clients6.google.com:<*>,6
+39,<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,6
+40,ssl.gstatic.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,6
+41,"mtalk.google.com:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",6
+42,mtalk.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,6
+43,baidu.com:<*>,6
+44,fonts.gstatic.com:<*>,6
+45,<*>.client-channel.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,6
+46,eclick.baidu.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,5
+47,i9.baidu.com:<*>,5
+48,"{""clients"": ""<*>.google.com"", ""port"": ""<*>"", ""proxy"": ""proxy.cse.cuhk.edu.hk"", ""port_proxy"": ""<*>"", ""scheme"": ""HTTPS""}",5
+49,"{""clients1.google.com"": ""<*>"", ""proxy"": ""proxy.cse.cuhk.edu.hk"": ""<*>""}",5
+50,mtalk.google.com:<*>,5
+51,clients4.google.com:<*>,5
+52,play.google.com:<*>,5
+53,info.pinyin.sogou.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,5
+54,puui.qpic.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,5
+55,fs-conn-doctor.qq.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,5
+56,puui.qpic.cn:<*>,5
+57,". So, the final template for the input log message is:",4
+58,"close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",4
+59,ss.bdimg.com:<*>,4
+60,ubmcmm.baidustatic.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+61,fonts.gstatic.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+62,notifications.google.com:<*>,4
+63,info.pinyin.sogou.com:<*>,4
+64,long.open.weixin.qq.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+65,github.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+66,notifications.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+67,<*>.client-channel.google.com:<*>,4
+68,trello.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+69,tc.dl.pinyin.sogoucdn.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,4
+70,client-cf.dropbox.com:<*>,4
+71,www.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,4
+72,tcpconn6.tencent.com:<*>,3
+73,b1.bdstatic.com:<*>,3
+74,baidu.com:<*> https,3
+75,eclick.baidu.com:<*>,3
+76,cpro.baidustatic.com:<*>,3
+77,client-lb.dropbox.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+78,apis.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+79,ss.bdimg.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+80,block-edge.dropbox.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+81,www.zhihu.com:<*>,3
+82,bolt.dropbox.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+83,security.***.***.***.com:** open through proxy **proxy.**.***.edu.***.hk:** HTTPS,3
+84,proxy_proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+85,ss.bdimg.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,3
+86,f12.baidu.com:<*>,3
+87,dc.csdn.net:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+88,mail.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+89,"qd-update.qq.com:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",3
+90,Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,3
+91,SOCKS5,2
+92,tcpconn3.tencent.com:<*>,2
+93,tcpconn6.tencent.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+94,oimagec7.ydstatic.com:<*>,2
+95,: the amount of data received by the proxy server. +,2
+96,"error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",2
+97,oimagec1.ydstatic.com:<*>,2
+98,oimageb8.ydstatic.com:<*>,2
+99,pos.baidu.com:<*>,2
+100,www.googletagservices.com:<*>,2
+101,d.dropbox.com:<*>,2
+102,static.doubleclick.net:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+103,news.<*>.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+104,video.<*>.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+105,www.<*>.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS {http://www.example.com},2
+106,client-channel.google.com:<*>,2
+107,ubmcmm.baidustatic.com:<*>,2
+108,"{""clients2.google.com"": ""<*>"", ""proxy.cse.cuhk.edu.hk"": ""<*>""}",2
+109,client-lb.dropbox.com:<*>,2
+110,A connection request was canceled before the completion.,2
+111,www.google.com.hk:<*>,2
+112,config.pinyin.sogou.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+113,www.gstatic.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS {http://www.example.com},2
+114,www.google-analytics.com:<*>,2
+115,www.google-analytics.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS {http://www.example.com},2
+116,<*>.client-channel.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+117,apis.google.com:<*>,2
+118,user-images.githubusercontent.com:<*>,2
+119,csi.gstatic.com:<*>,2
+120,strip.alicdn.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+121,people-pa.clients6.google.com:<*>,2
+122,collector.githubapp.com:<*>,2
+123,live.github.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+124,assets-cdn.github.com:<*>,2
+125,dict.youdao.com:<*>,2
+126,p3p.sogou.com:<*>,2
+127,clients2.google.com:<*>,2
+128,ssl.gstatic.com:<*>,2
+129,secure.quantserve.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+130,c.trello.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+131,c.trello.com:<*>,2
+132,proxy proxy.cse.cuhk.edu.hk:<*>,2
+133,csdnimg.cn:<*> error,2
+134,dc.csdn.net:<*>,2
+135,googleads.g.doubleclick.net:<*>,2
+136,ping.pinyin.sogou.com:<*>,2
+137,fs-conn-doctor.qq.com:<*>,2
+138,btrace.qq.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+139,"local-p2p.qq.com:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",2
+140,tc.dl.pinyin.sogoucdn.com:<*>,2
+141,lh3.googleusercontent.com:<*>,2
+142,tpc.googlesyndication.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+143,bolt.dropbox.com:<*>,2
+144,mini.cpc.sogou.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+145,xueshu.baidu.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+146,"""proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <1 sec]""",1
+147,"are placeholders for the amount of data sent and received, respectively. These values are obtained by parsing the log message. *",1
+148,: the amount of data received through the proxy server. +,1
+149,": This is another variable that appears in the log message, represented as a number followed by the unit (in this case,",1
+150,"are placeholders for the amount of data sent and received by the proxy server, respectively. These placeholders will be replaced with the actual values from the log message. *",1
+151,", which will output",1
+152,tcpconn.tencent.com:<*>,1
+153,tcpconn4.tencent.com:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy closed the connection unexpectedly.,1
+154,tcpconn.tencent.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+155,tcpconn3.tencent.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+156,$ <*>,1
+157,qmail.tencent.com:<*>,1
+158,showxml.qq.com:<*>,1
+159,<*>.flash2-http.qq.com:<*>,1
+160,impservice.dictapp.youdao.com:<*>,1
+161,"Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",1
+162,<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy closed the connection unexpectedly.,1
+163,". So, the final template for the input log message is",1
+164,is the number of bytes received through the proxy server. *,1
+165,oimageb3.ydstatic.com:<*>,1
+166,oimageb1.ydstatic.com:<*>,1
+167,oimagea3.ydstatic.com:<*>,1
+168,oimageb5.ydstatic.com:<*>,1
+169,oimageb7.ydstatic.com:<*>,1
+170,oimageb2.ydstatic.com:<*>,1
+171,oimageb4.ydstatic.com:<*>,1
+172,oimagec4.ydstatic.com:<*>,1
+173,oimageb6.ydstatic.com:<*>,1
+174,oimagea7.ydstatic.com:<*>,1
+175,oimagec3.ydstatic.com:<*>,1
+176,t11.baidu.com:<*>,1
+177,www.<*>.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS {http://www.example.com},1
+178,proxy https://proxy.cse.cuhk.edu.hk:<*>,1
+179,xin.<*>.cn:<*>,1
+180,newsimg.<*>.com:<*>,1
+181,comment.<*>.com:<*>,1
+182,m.news.<*>.com:<*>,1
+183,www.<*>.cn:<*>,1
+184,timg.baidu.com:<*>,1
+185,yt3.ggpht.com:<*>,1
+186,https://proxy.cse.cuhk.edu.hk/,1
+187,c.baidu.com:<*>,1
+188,z13.cnzz.com:<*>,1
+189,f10.baidu.com:<*>,1
+190,<*>.78KB,1
+191,w.cnzz.com:<*> https,1
+192,www.<*>.com:<*>,1
+193,cnzz.mmstat.com:<*>,1
+194,error : A connection request was canceled before the completion.,1
+195,{<*>}:<*>,1
+196,Template: {<*>},1
+197,w.cnzz.com:<*>,1
+198,clientservices.googleapis.com:<*>,1
+199,"<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",1
+200,ocsp_digicert_com_80,1
+201,mail-attachment.googleusercontent.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+202,static.adobelogin.com:<*>,1
+203,impservice.dictapp.youdao.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+204,ogs.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+205,i9.baidu.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+206,newsapp.<*>.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+207,cbjs.baidu.com:<*>,1
+208,bdimg.share.baidu.com:<*>,1
+209,c.cnzz.com:<*>,1
+210,ss0.baidu.com:<*> https proxy.cse.cuhk.edu.hk:<*>,1
+211,sclick.baidu.com:<*>,1
+212,s1_bdstatic_com_80,1
+213,img.<*>.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+214,assets.changyan.sohu.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+215,changyan.sohu.com:<*>,1
+216,js.passport.qihucdn.com:<*>,1
+217,upload.<*>.com:<*>,1
+218,<*> <*> <*>,1
+219,update.googleapis.com:<*>,1
+220,long.open.weixin.qq.com:<*>,1
+221,live.github.com:<*>,1
+222,www.gmail.com:<*>,1
+223,github-windows.s3.amazonaws.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+224,www.zhihu.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS {http://www.example.com},1
+225,pic4.zhimg.com:<*>,1
+226,content.googleapis.com:<*>,1
+227,clients1.google.com:<*>,1
+228,tva1.sinaimg.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+229,mu1.sinaimg.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+230,d0.sina.com.cn:<*>,1
+231,tvax1.sinaimg.cn:<*>,1
+232,rs.sinajs.cn:<*>,1
+233,news.sina.com.cn:<*>,1
+234,m.simba.taobao.com:<*>,1
+235,strip.alicdn.com:<*>,1
+236,dslb.cdn.krcom.cn:<*>,1
+237,gtms03.alicdn.com:<*>,1
+238,rm.api.weibo.com:<*>,1
+239,www.weibo.com:<*>,1
+240,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+241,github.com:<*>,1
+242,mmbiz.qpic.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+243,tools.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+244,assets-cdn.github.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+245,video-hkg3-<*>.xx.fbcdn.net:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+246,dblp.uni-trier.de:<*>,1
+247,avatars3.githubusercontent.com:<*>,1
+248,www.googletagmanager.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+249,lifetime,1
+250,server26401.teamviewer.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+251,<*> -> <*> : <*>,1
+252,mtalk.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+253,www.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+254,awqiizxequsixgr:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+255,c.baidu.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+256,clients4.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+257,bolt.dropbox.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+258,wpad:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+259,www.qq.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+260,t11.baidu.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+261,b1.bdstatic.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+262,"update.hicloud.com:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",1
+263,"<*> bytes (<*> KB) sent, <*> bytes (<*> KB) received",1
+264,c.csdnimg.cn:<*>,1
+265,avatar.csdn.net:<*>,1
+266,proxy cse.cuhk.edu.hk:<*> HTTPS,1
+267,beacon.tingyun.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+268,blog.csdn.net:<*>,1
+269,beacon.tingyun.com:<*>,1
+270,engine.adzerk.net:<*>,1
+271,qbwup.imtt.qq.com:<*>,1
+272,pubads.g.doubleclick.net:<*>,1
+273,f-log-extension.grammarly.io:<*>,1
+274,trello.com:<*>,1
+275,"close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+276,<*> -> <*> <*> -> Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+277,get.sogou.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+278,<*> -> <*>,1
+279,placeholders,1
+280,Lifetime <*>,1
+281,log.getdropbox.com:<*>,1
+282,pdlxf-doctor.qq.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+283,suggestion.baidu.com:<*>,1
+284,www.googleadservices.com:<*> <*> proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+285,r1---sn-i3beln7k.googlevideo.com:<*>,1
+286,r16---sn-i3b7knez.googlevideo.com:<*>,1
+287,s.youtube.com:<*>,1
+288,g.msn.com:<*>,1
+289,clients5.google.com:<*>,1
+290,ogs.google.com:<*>,1
+291,r17---sn-p5qlsn67.googlevideo.com:<*>,1
+292,static.doubleclick.net:<*>,1
+293,open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+294,<*> KB,1
+295,pagead2.googlesyndication.com:<*>,1
+296,ssl.google-analytics.com:<*>,1
+297,go.microsoft.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+298,go.microsoft.com:<*>,1
+299,people-pa.clients6.google.com,1
+300,config.pinyin.sogou.com:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy closed the connection unexpectedly.,1
+301,client.dropbox.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - Could not resolve proxy.cse.cuhk.edu.hk error <*>,1
+302,config.pinyin.sogou.com:<*>,1
+303,qdun-data.qq.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+304,www.googleadservices.com:<*>,1
+305,client-cf.dropbox.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,1
+306,mtalk.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,1
+307,client-lb.dropbox.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,1
+308,p2.qhimg.com:<*>,1
+309,www.googleapis.com:<*>,1
+310,pki.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+311,xy.brand.sogou.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+312,src.wei.focus.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+313,bx.optimix.asia:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+314,txt.go.sohu.com:<*>,1
+315,pv.mini.sohu.com:<*>,1
+316,crl.microsoft.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+317,cdn.e9377f.com:<*>,1
+318,v.admaster.com.cn:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+319,"i2.itc.cn:<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:<*> - Proxy server cannot establish a connection with the target, status code <*>",1
+320,v.admaster.com.cn:<*>,1
+321,at.mct01.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+322,ping.pinyin.sogou.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+323,s2.googleusercontent.com:<*>,1
+324,r1---sn-i3belnez.googlevideo.com:<*>,1
+325,cidian.youdao.com:<*>,1
+326,qdun-data.qq.com:<*>,1
+327,"close, <*> bytes sent, <*> bytes received, lifetime <1 sec",1
+328,r6---sn-i3b7knl6.googlevideo.com:<*>,1
+329,imgsrc.baidu.com:<*>,1

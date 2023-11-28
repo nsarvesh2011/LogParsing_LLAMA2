@@ -1,0 +1,16 @@
+,EventTemplate,Occurrences
+0,jk2_init() ok <*> in scoreboard slot <*>,586
+1,ok <*>,569
+2,mod_jk child workerEnv in error state <*> ok <*>,539
+3,jk2_init() ok <*>,233
+4,jk2_init() ok <*> Found child <*> in scoreboard slot <*>,15
+5,"What is the template of the log message? Note: The input log message may contain placeholders, which should be replaced with the corresponding values.",13
+6,mod_jk child init ok <*>,12
+7,"What is the template of the log message? Note: The input log message may contain placeholders, which should be replaced with the corresponding values to extract the template.",8
+8,jk2_init() Can't find child <*> in scoreboard,7
+9,What is the template of the log message?,5
+10,jk2_init() Can't find child <*>,5
+11,"What is the template of the log message? Note: The log message may contain placeholders, which should be replaced with the corresponding values.",3
+12,jk2_init() ok <*> <*>,2
+13,"What is the template of the log message? Note: The log message may contain placeholders, which should be replaced with actual values when using the template.",2
+14,"What is the template of the log message? Note: The log message may contain placeholders, which should be replaced with actual values to create a valid template.",1

@@ -1,0 +1,594 @@
+,EventTemplate,Occurrences
+0,"
+printFreezingDisplayLogsopening app wtoken = AppWindowToken{...}
+",1
+1,"
+acquire lock={lock} flags={flags} tag=""{tag}"" name=""{name}"" ws={null} uid={uid} pid={pid}
+",12
+2,"0
+",199
+3,"
+Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}} -- going to hide
+",2
+4,"
+visible={vis}
+mask={mask}
+oldVal={oldVal}
+newVal={newVal}
+diff={diff}
+fullscreenStackVis={fullscreenStackVis}
+dockedStackVis={dockedStackVis}
+fullscreenStackBounds=Rect({fullscreenStackBounds})
+dockedStackBounds=Rect({dockedStackBounds})
+",3
+5, represents a placeholder for the value of the ,5
+6,": The number of system calls made so far.
+
+So, the full template would look like this: ",1
+7," property, which is also a ",1
+8,"
+release:lock={lock} flg={flg} tag=""{tag}"" name=""{name}"" ws={ws} uid={uid} pid={pid}
+",13
+9,", and ",77
+10,"
+updateDimmedActivatedHideSensitive overlap={overlap}
+",65
+11, is replaced with the value ,70
+12,": The value of this variable is an integer representing the user ID associated with this log message (in this case, 1000).
+* ",2
+13,"
+setSystemUiVisibility vis={40000500} mask={ffffffff} oldVal={508} newVal={40000500} diff={40000008} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",3
+14,"
+cancelAutohide={cancelAutohide}
+",15
+15,"
+notifyUiVisibilityChanged:vis={vis} SystemUiVisibility={SystemUiVisibility}
+",15
+16,"
+Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by {caller}
+",1
+17,"
+{name=com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity}
+",1
+18, in this case). We use ,1
+19,"
+userActivityNoUpdateLocked: {eventTime=eventTime, event=event, flags=flags, uid=uid}
+",15
+20,".
+
+So the template of the log message can be written as: ",1
+21,"
+Screen frozen for +1s0ms due to Window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity}
+",1
+22,"
+startAnimation begin={startAnimation}
+",1
+23,"
+startAnimation end
+",1
+24,"
+remove({PendingIntent{19abed0: PendingIntentRecord{a485420 com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching
+",1
+25,"
+",12
+26,"
+Application requested orientation {orientation}, got rotation {rotation} which has compatible metrics.
+",2
+27,"
+shouldBlockLocation running {running}
+",37
+28," variable, which in this case is ",33
+29, is a placeholder for the value of the variable ,11
+30,": The value of this placeholder is the user ID of the user who released the object or resource.
+* ",1
+31,"
+Here, ",33
+32, has a template of ,85
+33,"
+So, the variable ",85
+34, and ,134
+35,"
+userActivityNoUpdateLocked: {eventTime=event, flags=uid}
+",48
+36,"
+suspendAutohide {suspendAutohide}
+",23
+37,: The value of ,14
+38,": The value of the key that was intercepted before queuing.
+* ",6
+39,"
+resumeSuspendedAutohide={vis, mask, oldVal, newVal, diff, fullscreenStackVis, dockedStackVis, fullscreenStackBounds, dockedStackBounds}
+",10
+40,"
+querySoundEffectsEnabled...
+",17
+41,"
+acquire lock={lock} flags={flags} tag=""{tag}"" name=""{name}"" ws={WorkSource{uid}} pid={pid}
+",3
+42,"
+{Acquiring suspend blocker ""PowerManagerService.WakeLocks""}
+",33
+43,"
+Note that the placeholders are enclosed in curly braces ",2
+44,: The value of the ,18
+45, parameter is also ,4
+46,"
+{activityToken=android.os.BinderProxy@2bd79ce}
+",1
+47,"
+setSystemUiVisibility vis={vis} mask={mask} oldVal={oldVal} newVal={newVal} diff={diff} fullscreenStackVis={fullscreenStackVis} dockedStackVis={dockedStackVis}, fullscreenStackBounds=Rect({fullscreenStackBounds}), dockedStackBounds=Rect({dockedStackBounds})
+",182
+48,": The user ID associated with the event. In this case, it's ",6
+49,": This placeholder represents the y-coordinate of the touch event. In this case, it is ",1
+50,"
+schedulePeek={peek}
+",1
+51,"
+getRingtonePlayer...
+",2
+52,"
+Note that some of the placeholders have a ",1
+53,", which is represented by ",2
+54,: This variable represents the value of the ,6
+55,: ,7
+56, with a value of ,5
+57,"
+setSystemUiVisibility vis={40000600} mask={ffffffff} oldVal={40000500} newVal={40000600} diff={300} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+58,"
+Where ",12
+59,")
+",1
+60,": The name of the surface being destroyed.
+* ",1
+61,", which is represented by an empty string (",1
+62, and separated from the placeholder with a comma ,1
+63,", ",1
+64,"
+{cancelPeek}
+",20
+65,": A double representing the factor by which the collapse speed should be increased when the view is collapsed.
+* ",1
+66, is a placeholder for the actual value of the ,42
+67,"
+Here, the variables are identified by their names in the log message, and the values are enclosed in curly braces ",6
+68,", which is assigned the value ",2
+69,"
+logNotificationVisibilityChanges runInThread start {vis} {mask} {oldVal} {newVal} {diff} {fullscreenStackVis} {dockedStackVis} {fullscreenStackBounds} {dockedStackBounds}
+",6
+70,"
+The variables that can be extracted from this template are:
+
+* ",9
+71,": This variable represents the word ""in"" in the log message.
+* ",3
+72,"
+{unregister callback for null}
+",1
+73,"
+getMode... = {subId}
+",1
+74,"
+onInterceptTouchEvent MotionEvent {
+    action=ACTION_DOWN,
+    actionButton=0,
+    id=[0]=0,
+    x=[0]=317.0,
+    y=[0]=419.0,
+    toolType=[0]=TOOL_TYPE_FINGER,
+    buttonState=0,
+    metaState=0,
+    flags=0x0,
+    edgeFlags=0x0,
+    pointerCount=1,
+    historySize=0,
+    eventTime=261851646,
+    downTime=261851646,
+    deviceId=3,
+    source=0x1002
+}
+",1
+75,"
+onInterceptTouchEvent MotionEvent {
+    action={ACTION_UP, ACTION_BUTTON_0},
+    id[{ID_0=0}],
+    x [{X_0=317.0}],
+    y [{Y_0=419.0}],
+    toolType [{TOOL_TYPE_FINGER}],
+    buttonState={BUTTON_STATE_0},
+    metaState={META_STATE_0},
+    flags={FLAGS_0x0},
+    edgeFlags={EDGE_FLAGS_0x0},
+    pointerCount={1},
+    historySize={HISTORY_SIZE_0},
+    eventTime={EVENT_TIME_261851713},
+    downTime={DOWN_TIME_261851646},
+    deviceId={DEVICE_ID_3},
+    source={SOURCE_0x1002}
+}
+",1
+76,": The value is true.
+* ",1
+77,"
+START {act=act flg=flg cmp=cmp uid=uid display=display} from uid on display
+",1
+78,": The class name of the activity.
+* ",1
+79,"
+setSystemUiVisibility vis={40000500} mask={ffffffff} oldVal={40000600} newVal={40000500} diff={300} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+80,"
+acquire lock={lock} flags={flags} tag=""{tag}"" name=""{name}"" ws={WorkSource{ws}} uid={uid} pid={pid}
+",5
+81,"
+cancelNotification,index={index}
+",3
+82,: The value of this variable is ,5
+83,": This is the new value of the notification.
+* ",2
+84,"
+cancelNotificationLocked,remove = {com.tencent.mobileqq}
+",2
+85,"
+flingToHeight: {vel}={vel}, {expand}={expand}, {target}={target}, {collapseSpeedUpFactor}={collapseSpeedUpFactor}, {expandBecauseOfFalsing}={expandBecauseOfFalsing}
+",1
+86," is an integer representing the rotation angle (0 by default)
+
+Note that some of these placeholders may not be present in every log message, depending on the specific implementation of the ",1
+87,: replaced with ,2
+88,": The new value of the notification.
+
+So, in this case, the template would be ",1
+89,": A boolean value indicating whether the animation should be delayed.
+* ",1
+90,"
+changeInFocus={true} layoutBegin={true}
+",6
+91,"
+changeInFocus={causedUsToNeedDoALayoutEnd}
+",1
+92,"
+{overlapAmount=95.0, previousNotificationEnd=0.0, newYTranslation=-95.0, location=4, i=0, getTopPadding=333.0, getLocationOnScreen=(-428)}
+",1
+93, represents the name of the variable that is being set to ,181
+94,"
+{overlapAmount=154.0, previousNotificationEnd=0.0, newYTranslation=-154.0, location=4, i=0, getTopPadding=333.0, getLocationOnScreen=(-487)}
+",1
+95,"
+
+Note that some of the variables have a placeholder value, which is denoted by the backticks (",4
+96,": The new value of the notification children.
+* ",2
+97, placeholder is a 2D bounding rectangle in the format ,2
+98, and separated by commas ,14
+99,"
+* ",14
+100," variable is replaced by an empty string, since it does not have a corresponding placeholder. Similarly, the ",1
+101,"
+Skipping, withExcluded: {false}, tr.intent:Intent { act={android.intent.action.VIEW} dat=file:///storage/emulated/0/Tencent/QQfile_recv/b.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }
+",7
+102,"
+getRecentTasks: topActivity={topActivity}
+",8
+103,": A bitmask representing the type of tasks to retrieve (62 in this case).
+* ",7
+104,": The package name of the application that sent the notification (in this case, ""com.tencent.mobileqq"").
+* ",11
+105,"
+cancelNotification,index=-1
+",20
+106,"
+cancelNotificationWithTag pid={pid} uid={uid} tag={tag} pkg={pkg} id={id}
+",9
+107,"
+closeQs = {closeQs}
+",12
+108,"
+{instantCollapse}
+",9
+109,"
+disable: {expand, icons*, alerts, system_info*, back, home, recent, clock, navigationbar, search, quick_settings}
+",1
+110,": The value of this variable is 1000, which represents the user ID associated with this log message.
+* ",6
+111,": This is the class name of the object that the log message is related to.
+* ",1
+112,": The bounds of the fullscreen stack.
+* ",14
+113,"
+""isMusicActive...""
+",12
+114,"
+acquire lock={lock} flags={flags} tag=""{tag}"" name=""{name}"" ws={ws} uid={uid} pid={pid}
+",6
+115,": The value of this placeholder is the user ID of the user who released the object.
+* ",1
+116, is a placeholder for the value of ,2
+117,"
+isBluetoothA2dpOn...
+",1
+118,"
+isBluetoothScoOn...
+",1
+119, is a placeholder for the value of the ,3
+120, is a variable that is being abstracted using the ,6
+121,"
+getMode...
+",1
+122,"
+setSpeakerphoneOn {on}
+",1
+123,"
+setSpeakerphoneOn on={true}
+",1
+124,": {android broadcastIntent}
+* ",1
+125,": This is the name of the alarm that was received.
+* ",3
+126, is a variable that contains the value ,3
+127,"
+{received broadcast android.intent.action.TIME_TICK}
+",2
+128,"
+handleTimeUpdate {
+    # time update in milliseconds
+    timeUpdate={timeUpdate}
+    # current system UI visibility
+    vis={vis}
+    # current system UI mask
+    mask={mask}
+    # previous system UI visibility
+    oldVal={oldVal}
+    # new system UI visibility
+    newVal={newVal}
+    # difference between new and old values
+    diff={diff}
+    # fullscreen stack visibility
+    fullscreenStackVis={fullscreenStackVis}
+    # docked stack visibility
+    dockedStackVis={dockedStackVis}
+    # fullscreen stack bounds
+    fullscreenStackBounds=Rect({fullscreenStackBounds})
+    # docked stack bounds
+    dockedStackBounds=Rect({dockedStackBounds})
+}
+",2
+129,": The tag of the listener associated with the alarm, represented as a null value (",1
+130," is the adjustment value, which can be a number or a string representing a specific adjustment (e.g. ""906"" in this case).
+* ",1
+131,: This is the value of the variable ,2
+132,"
+In this template, the placeholders are denoted by backticks (",1
+133,": This is a placeholder for a variable that contains the tag of the listener associated with the alarm (in this case, ",1
+134,"
+remove({PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}}) changed bounds; rebatching
+",1
+135,"
+Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=0: not found
+",1
+136,"
+abandonAudioFocus {
+    vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0
+}
+",1
+137,"
+{uid}={10111}, {pid}={28601}
+",1
+138,"
+In this template, the variable ",1
+139,"
+Scheduling restart of crashed service {service} in 1000ms
+",1
+140,"
+new Process app={ProcessRecord{6eaaf00 0:com.tencent.mobileqq:qzone/u0a111}}, name={com.tencent.mobileqq:qzone}, euid={0}
+",1
+141," is the name of the service that is being called.
+* ",1
+142, is the variable that needs to be replaced with the actual value of ,2
+143," is the line number of the calling method, and ",3
+144,": A boolean indicating whether the event has been canceled or not. In this case, it's set to ",4
+145,": A boolean indicating whether the key is being pressed down (false) or released (true).
+* ",4
+146,": The value of this variable is false.
+* ",5
+147," is a boolean indicating whether the screenshot is in rotation.
+* ",3
+148,": This is the main message being logged. It contains information about the cause of the layout change (i.e., ""change in focus"").
+* ",5
+149,"
+
+Note that some of the variables have a placeholder value enclosed in curly braces ",12
+150," field is also replaced with its hexadecimal representation, ",6
+151,"
+setSystemUiVisibility vis={c0000700} mask={ffffffff} oldVal={708} newVal={c0000700} diff={c0000008} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",3
+152," is a placeholder for the number that appears in the log message, specifically ",1
+153,"
+enqueueNotificationInternal: pkg={pkg} id={id} notification={notification}
+    pri={pri} contentView={contentView} vibrate={vibrate} sound={sound} tick={tick} defaults={defaults} flags={flags} color={color} vis={vis}
+",1
+154," field in the log message, which is ",1
+155,"
+getRingerMode...
+",3
+156, if the variable is ,2
+157,"
+addNotification key={key} appId={appId} notificationId={notificationId} oldValue={oldValue} newValue={newValue} diff={diff}
+",1
+158,"
+mHeadsUpExistenceChangedRunnable
+",4
+159,"
+Here, the variables are delimited by backticks (",2
+160,"
+removeNotificationChildren={vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0}
+",10
+161," field in the template.
+
+So, the full template of the log message is: ",1
+162,": This is the actual text inside the backticks, which is the name of the function (",2
+163," property, which will be passed as an argument to the template.
+
+The rest of the template is composed of placeholders for various properties and values, which will be replaced with the actual values when the template is rendered. These placeholders are enclosed in curly braces ",4
+164,": The display number of the device (in this case, ",1
+165, field in the ,1
+166,"-user);
+",1
+167,"
+setSystemUiVisibility vis={80000608} mask={ffffffff} oldVal={c0000700} newVal={80000608} diff={40000108} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({720, 0 - 1280, 0}) dockedStackBounds=Rect(0, 0 - 0, 0)
+",1
+168, variable contains the value ,4
+169,"
+setSystemUiVisibility vis={40000600} mask={ffffffff} oldVal={80000608} newVal={40000600} diff={c0000008} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+170," is a placeholder for a specific activity name, and ",1
+171,"
+disable: <{expand} {icons}* {alerts} {system_info}* {back} {home} {recent} {clock} {navigationbar} {search} {quick_settings} >
+",2
+172," is a placeholder for the actual activity name, and ",1
+173,"
+setSystemUiVisibility vis={40000000} mask={ffffffff} oldVal={40000600} newVal={40000000} diff={600} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+174,"
+setSystemUiVisibility vis={40000600} mask={ffffffff} oldVal={40000000} newVal={40000600} diff={600} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+175,"
+setSystemUiVisibility vis={708} mask={ffffffff} oldVal={40000600} newVal={708} diff={40000108} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}), dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+176,"
+{name=com.example.android.notepad/com.example.android.notepad.NoteEditor}
+",2
+177,": The display number of the intent, which is ",1
+178, value is ,1
+179,"
+setSystemUiVisibility vis={80000508} mask={ffffffff} oldVal={c0000700} newVal={80000508} diff={40000208} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({720, 0 - 1280, 0}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+180," placeholders, and the values are enclosed in curly braces ",1
+181,"
+setSystemUiVisibility vis={40000500} mask={ffffffff} oldVal={80000508} newVal={40000500} diff={c0000008} fullscreenStackVis={0} dockedStackVis={0}, fullscreenStackBounds=Rect({0, 0 - 720, 1280}) dockedStackBounds=Rect({0, 0 - 0, 0})
+",1
+182,", which corresponds to the value ",4
+183, variable is ,3
+184,"
+sending alarm Alarm{...}
+vis={d764221} mask={type 3} oldVal={509262332} newVal={...} diff={...} fullscreenStackVis={...} dockedStackVis={...}, fullscreenStackBounds=Rect({fullscreenStackBounds}) dockedStackBounds=Rect({dockedStackBounds})
+",1
+185,"
+received broadcast android.intent.action.TIME_TICK
+",1
+186,"
+handleTimeUpdate {
+    # time update in milliseconds
+    timeUpdate={timeUpdate}
+    # current system UI visibility
+    vis={vis}
+    # current system UI mask
+    mask={mask}
+    # previous system UI visibility
+    oldVal={oldVal}
+    # new system UI visibility
+    newVal={newVal}
+    # difference between new and old values
+    diff={diff}
+    # fullscreen stack visibility
+    fullscreenStackVis={fullscreenStackVis}
+    # docked stack visibility
+    dockedStackVis={dockedStackVis}
+    # fullscreen stack bounds
+    fullscreenStackBounds={fullscreenStackBounds}
+    # docked stack bounds
+    dockedStackBounds={dockedStackBounds}
+}
+",1
+187,"
+isWiredHeadsetOn={isWiredHeadsetOn}
+",1
+188, is ,1
+189,"
+updateIsPoweredLocked: wasPowered={wasPowered} mIsPowered={mIsPowered} oldPlugType={oldPlugType} mPlugType={mPlugType} mBatteryLevel={mBatteryLevel}
+",1
+190,"
+{received broadcast android.intent.action.BATTERY_CHANGED}
+",1
+191,"
+ACTION_BATTERY_CHANGED AMP={amp} Volt={volt}
+",1
+192, is a variable that represents the value of the ,1
+193,"
+ACTION_BATTERY_CHANGED pluggedType={pluggedType}
+",1
+194,"
+what={what}
+",1
+195,"
+In this case, the placeholder is ",1
+196,": This is a list of placeholders that can be used to extract the corresponding template. In this case, there is only one placeholder (",2
+197,": {placeholders})
+",1
+198,": The value of this variable is an integer that represents the user ID associated with the lock.
+* ",1
+199,"
+Here, the variables are denoted by ",1
+200," field, which is ",1
+201,"
+addNotification key={key} appId={appId} notificationId={notificationId} oldVal={oldVal} newVal={newVal} diff={diff}
+",1
+202,": The log message payload (in this case, null).
+* ",1
+203,"
+sending alarm Alarm{type={type} when={when} PendingIntent={PendingIntent{...}} repeatInterval={repeatInterval} listenerTag={listenerTag}}
+",1
+204,"
+onInterceptTouchEvent MotionEvent {
+    action=ACTION_DOWN,
+    actionButton=0,
+    id=[0]=0,
+    x=[0]=622.0,
+    y=[0]=86.0,
+    toolType=[0]=TOOL_TYPE_FINGER,
+    buttonState=0,
+    metaState=0,
+    flags=0x0,
+    edgeFlags=0x0,
+    pointerCount=1,
+    historySize=0,
+    eventTime=261991304,
+    downTime=261991304,
+    deviceId=3,
+    source=0x1002
+}
+",1
+205,"
+onInterceptTouchEvent MotionEvent {
+    action={ACTION_UP, ACTION_BUTTON_0},
+    id[{ID_0=0}],
+    x [{X_0=622.0}],
+    y [{Y_0=86.0}],
+    toolType [{TOOL_TYPE_FINGER}],
+    buttonState={BUTTON_STATE_0},
+    metaState={META_STATE_0},
+    flags={FLAGS_0x0},
+    edgeFlags={EDGE_FLAGS_0x0},
+    pointerCount={1},
+    historySize={HISTORY_SIZE_0},
+    eventTime={EVENT_TIME_261991368},
+    downTime={DOWN_TIME_261991304},
+    deviceId={DEVICE_ID_3},
+    source={SOURCE_0x1002}
+}
+",1
+206,": 10112 (an integer representing the user ID)
+* ",1
+207,": This is the main template, which contains the information about the activity.
+* ",1
+208,".
+* ",1
+209,"
+So, the variables that need to be replaced with their values are:
+
+* ",1
+210,"
+Note that there are placeholders for the following variables:
+
+* ",2

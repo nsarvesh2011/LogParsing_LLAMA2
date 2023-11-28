@@ -1,0 +1,349 @@
+,EventTemplate,Occurrences
+0,<*>,506
+1,PacketResponder <*> for <*>,176
+2,NameSystem.delete: <*>,134
+3,What is the template of the input log?,108
+4,NameSystem.delete: <*> is added to invalidSet of <*>,87
+5,PacketResponder <*>,82
+6,blockMap updated: <*> is added to blk_-<*> size <*>,74
+7,Got exception while serving <*>,72
+8,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_-<*> size <*>,70
+9,PacketResponder <*> for block <*>,49
+10,blk_-<*>,40
+11,Received block {<*>} of size {<*>} from {<*>},30
+12,/mnt/hadoop/dfs/data/current/,15
+13,What is the template for the input log message?,14
+14,/mnt/hadoop/dfs/data/current/subdir34/,11
+15,/mnt/hadoop/dfs/data/current/subdir33/,8
+16,/mnt/hadoop/dfs/data/current/subdir38/,8
+17,What is the template of the input log message?,7
+18,/mnt/hadoop/dfs/data/current/subdir1/,7
+19,/mnt/hadoop/dfs/data/current/subdir15/,7
+20,/mnt/hadoop/dfs/data/current/subdir36/,7
+21,/mnt/hadoop/dfs/data/current/subdir27/,6
+22,/mnt/hadoop/dfs/data/current/subdir29/,6
+23,/mnt/hadoop/dfs/data/current/subdir32/,6
+24,/mnt/hadoop/dfs/data/current/subdir26/,6
+25,/mnt/hadoop/dfs/data/current/subdir39/,6
+26,/mnt/hadoop/dfs/data/current/subdir57/,6
+27,/mnt/hadoop/dfs/data/current/subdir24/,6
+28,/mnt/hadoop/dfs/data/current/subdir35/,6
+29,/mnt/hadoop/dfs/data/current/subdir18/,5
+30,/mnt/hadoop/dfs/data/current/subdir42/,5
+31,/mnt/hadoop/dfs/data/current/subdir0/,5
+32,/mnt/hadoop/dfs/data/current/subdir30/,5
+33,/mnt/hadoop/dfs/data/current/subdir40/,5
+34,/mnt/hadoop/dfs/data/current/subdir16/,5
+35,/mnt/hadoop/dfs/data/current/subdir46/,5
+36,/mnt/hadoop/dfs/data/current/subdir31/,5
+37,/mnt/hadoop/dfs/data/current/subdir19/,5
+38,size <*> from <*>,5
+39,/mnt/hadoop/dfs/data/current/subdir5/,4
+40,Got exception while serving <*>:blk_-<*> to <*>:,4
+41,/mnt/hadoop/dfs/data/current/subdir41/,4
+42,/mnt/hadoop/dfs/data/current/subdir60/,4
+43,/mnt/hadoop/dfs/data/current/subdir6/,4
+44,/mnt/hadoop/dfs/data/current/subdir53/,4
+45,/mnt/hadoop/dfs/data/current/subdir59/,4
+46,/mnt/hadoop/dfs/data/current/subdir14/,4
+47,/mnt/hadoop/dfs/data/current/subdir28/,4
+48,/mnt/hadoop/dfs/data/current/subdir56/,4
+49,blk_{<*>},4
+50,/mnt/hadoop/dfs/data/current/subdir2/,4
+51,/mnt/hadoop/dfs/data/current/subdir54/,4
+52,$ <*>,3
+53,PacketResponder <*> for block {<*>} terminating,3
+54,/mnt/hadoop/dfs/data/current/subdir11/,3
+55,/mnt/hadoop/dfs/data/current/subdir48/,3
+56,/mnt/hadoop/dfs/data/current/subdir23/,3
+57,/mnt/hadoop/dfs/data/current/subdir13/,3
+58,/mnt/hadoop/dfs/data/current/subdir4/,3
+59,/mnt/hadoop/dfs/data/current/subdir37/,3
+60,/mnt/hadoop/dfs/data/current/subdir7/,3
+61,/mnt/hadoop/dfs/data/current/subdir55/,3
+62,<*>:Got exception while serving <*>,3
+63,/mnt/hadoop/dfs/data/current/subdir10/,3
+64,Received block <*> of size <*>,2
+65,{<*>},2
+66,/mnt/hadoop/dfs/data/current/subdir9/,2
+67,/mnt/hadoop/dfs/data/current/subdir25/,2
+68,/mnt/hadoop/dfs/data/current/subdir47/,2
+69,/mnt/hadoop/dfs/data/current/subdir21/,2
+70,/mnt/hadoop/dfs/data/current/subdir50/,2
+71,/mnt/hadoop/dfs/data/current/subdir45/,2
+72,block,2
+73,/mnt/hadoop/dfs/data/current/subdir22/,2
+74,/mnt/hadoop/dfs/data/current/subdir61/,2
+75,/mnt/hadoop/dfs/data/current/subdir52/,2
+76,/mnt/hadoop/dfs/data/current/subdir63/,2
+77,/mnt/hadoop/dfs/data/current/subdir62/,2
+78,/mnt/hadoop/dfs/data/current/subdir58/,2
+79,/mnt/hadoop/dfs/data/current/subdir3/,2
+80,/mnt/hadoop/dfs/data/current/subdir17/,2
+81,/mnt/hadoop/dfs/data/current/subdir43/,2
+82,blockMap updated: <*> is added to blk_7128370237687728475 size <*>,1
+83,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3050920587428079149 size <*>,1
+84,blockMap updated: <*> is added to blk_7888946331804732825 size <*>,1
+85,blockMap updated: <*> is added to blk_2377150260128098806 size <*>,1
+86,blk_5402003568334525940,1
+87,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_8015913224713045110 size <*>,1
+88,blockMap updated: <*> is added to blk_4568434182693165548 size <*>,1
+89,blockMap updated: <*> is added to blk_8763662564934652249 size <*>,1
+90,blockMap updated: <*> is added to blk_7453815855294711849 size <*>,1
+91,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5165786360127153975 size <*>,1
+92,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_673825774073966710 size <*>,1
+93,blockMap updated: <*> is added to blk_8181993091797661153 size <*>,1
+94,blk_4755566011267050000,1
+95,blockMap updated: <*> is added to blk_2113880130496815041 size <*>,1
+96,blockMap updated: <*> is added to blk_427714267500527780 size <*>,1
+97,blk_3166960787499091856,1
+98,blk_5739119717322549945,1
+99,blk_5126469776250053435,1
+100,blk_6296828743242110158,1
+101,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6093743385844975689 size <*>,1
+102,blockMap updated: <*> is added to blk_1636660629634995787 size <*>,1
+103,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_467589865104023338 size <*>,1
+104,blockMap updated: <*> is added to blk_4585055992495043771 size <*>,1
+105,blockMap updated: <*> is added to blk_4628142183191390143 size <*>,1
+106,blockMap updated: <*> is added to blk_7481361125021302112 size <*>,1
+107,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5114010683183383297 size <*>,1
+108,Received block $<*> of size <*> from <*>,1
+109,blockMap updated: <*> is added to blk_278357163850888 size <*>,1
+110,blk_7484759945731484842,1
+111,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_541463031152673662 size <*>,1
+112,Verification succeeded for <*>,1
+113,blk_426381928692704514,1
+114,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5210211633167259832 size <*>,1
+115,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3073404534069578592 size <*>,1
+116,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6002109944224710483 size <*>,1
+117,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5095897972833086609 size <*>,1
+118,blockMap updated: <*> is added to blk_9072829105973334075 size <*>,1
+119,blockMap updated: <*> is added to blk_6828121630547887549 size <*>,1
+120,blockMap updated: <*> is added to blk_6080034782037237879 size <*>,1
+121,blk_5250287988089075029,1
+122,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_446513188203036714 size <*>,1
+123,blk_4029732570544915384,1
+124,blockMap updated: <*> is added to blk_6285161494041403917 size <*>,1
+125,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_344934934043642744 size <*>,1
+126,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4984720043834039361 size <*>,1
+127,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_325981833999429148 size <*>,1
+128,blk_5454332143498402824,1
+129,blk_3963698556744744747,1
+130,blk_2039230511363331616,1
+131,blk_8482111101480751895,1
+132,blk_8457344665564381337,1
+133,blk_2986720270598512615,1
+134,blk_4081177399275502985,1
+135,blk_3515154079719300106,1
+136,blk_3087787567144441647,1
+137,blk_6105506155797750768,1
+138,blk_365496398062338141,1
+139,blk_3979872751691718643,1
+140,blk_6655622109568310643,1
+141,blk_2322432806134104317,1
+142,blk_4848669047361069041,1
+143,blk_3797494971676497497,1
+144,blk_805587860540600864,1
+145,blk_3141363517520802396,1
+146,blk_666713934549639791,1
+147,blk_4355450627202483068,1
+148,blk_5952254363678329024,1
+149,blk_2273334621242106674,1
+150,/mnt/hadoop/dfs/data/current/subdir51/,1
+151,blk_4263664068073345850,1
+152,blk_4098532420907418423,1
+153,/mnt/hadoop/dfs/data/current/subdir20/,1
+154,/mnt/hadoop/dfs/data/current/subdir12/,1
+155,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5277338321835341602 size <*>,1
+156,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_8894334107354324777 size <*>,1
+157,blockMap updated: <*> is added to blk_4802366409699286298 size <*>,1
+158,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5491101910066444061 size <*>,1
+159,blk_2294700909811950327,1
+160,blk_2063252936853409868,1
+161,blockMap updated: <*> is added to blk_8952177028039691517 size <*>,1
+162,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_939695665085237271 size <*>,1
+163,blockMap updated: <*> is added to blk_8988793695103110546 size <*>,1
+164,blk_5600017220681756254,1
+165,blockMap updated: <*> is added to blk_1021828391502582165 size <*>,1
+166,blk_3202507081359904616 size <*>,1
+167,blk_2157471834570224881,1
+168,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5809900021002850724 size <*>,1
+169,blockMap updated: <*> is added to blk_1589878256898761558 size <*>,1
+170,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_512039711533506696 size <*>,1
+171,blockMap updated: <*> is added to blk_5176855630425795751 size <*>,1
+172,blk_469871968689793326,1
+173,blockMap updated: <*> is added to blk_4307207852226914003 size <*>,1
+174,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3506875694435075421 size <*>,1
+175,blk_4614530673206341566,1
+176,blockMap updated: <*> is added to blk_6125469222540396851 size <*>,1
+177,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5272761429354463572 size <*>,1
+178,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6547729596040509998 size <*>,1
+179,blk_48742413802609430,1
+180,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3079488924320077240 size <*>,1
+181,blk_2599050023684318911,1
+182,blockMap updated: <*> is added to blk_4234385041723406944 size <*>,1
+183,blockMap updated: <*> is added to blk_1389634598105954660 size <*>,1
+184,blk_557803157214911261,1
+185,blk_6338761369201338121,1
+186,blk_2038610753592374847,1
+187,blk_9216955386716663841,1
+188,blk_7297060562345904886,1
+189,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4553790855855864497 size <*>,1
+190,blk_1828089683746536118,1
+191,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4318179566727871532 size <*>,1
+192,blockMap updated: <*> is added to blk_4069436988023676023 size <*>,1
+193,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_7838843222458775811 size <*>,1
+194,blk_560063894682806537,1
+195,blk_2652444451422301232,1
+196,blk_7016884347337429710,1
+197,blockMap updated: <*> is added to blk_7415823309220171667 size <*>,1
+198,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_578261619176233743 size <*>,1
+199,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4154740411570608045 size <*>,1
+200,blockMap updated: <*> is added to blk_8188837227311063557 size <*>,1
+201,blockMap updated: <*> is added to blk_2618566506268332756 size <*>,1
+202,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5971534893446541111 size <*>,1
+203,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_300967862449910205 size <*>,1
+204,blockMap updated: <*> is added to blk_2059389709317340334 size <*>,1
+205,blk_5240632065631390212,1
+206,blk_7703498406755483188,1
+207,blk_668295516093167045,1
+208,/mnt/hadoop/dfs/data/current/subdir8/,1
+209,blk_4182287230523664560,1
+210,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3585424189730250601 size <*>,1
+211,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_1151012386083696649 size <*>,1
+212,Starting thread to transfer block <*> to <*>,1
+213,", and",1
+214,blockMap updated: <*> is added to blk_8761786041973172187 size <*>,1
+215,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6039898256291822367 size <*>,1
+216,blk_5602895463700536678,1
+217,blockMap updated: <*> is added to blk_8063831442998721547 size <*>,1
+218,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5574898547439146021 size <*>,1
+219,blk_2474460483915499078,1
+220,blk_5379939266348893280,1
+221,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5938666289587069744 size <*>,1
+222,blk_231502148921342925,1
+223,Received block blk_42310490495820519 of size <*> from <*>,1
+224,blockMap updated: <*> is added to blk_4992622607400168655 size <*>,1
+225,blockMap updated: <*> is added to blk_1865953191447352631 size <*>,1
+226,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_8850044049297409379 size <*>,1
+227,blk_5174461779237739025,1
+228,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6238543795209416553 size <*>,1
+229,blockMap updated: <*> is added to blk_1779145401405339993 size <*>,1
+230,blockMap updated: <*> is added to blk_7705518309270121951 size <*>,1
+231,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3849239820458663566 size <*>,1
+232,blk_5648034804629064273,1
+233,blk_4433676399725693167,1
+234,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_207875475387433291 size <*>,1
+235,blockMap updated: <*> is added to blk_1594026090263820445 size <*>,1
+236,blk_3894335463008345041,1
+237,blockMap updated: <*> is added to blk_7430820184211246929 size <*>,1
+238,blk_8711213005689112399,1
+239,blk_3905759687686730625,1
+240,blk_342378162324355732,1
+241,blk_2866275036574950116,1
+242,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6748710057489679257 size <*>,1
+243,blockMap updated: <*> is added to blk_1833093108290599780 size <*>,1
+244,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_9163807899833139121 size <*>,1
+245,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5390763359901143305 size <*>,1
+246,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_2430417102497887445 size <*>,1
+247,blk_5062112794659861146,1
+248,blockMap updated: <*> is added to blk_9060964400089016309 size <*>,1
+249,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_1756478622414930264 size <*>,1
+250,blockMap updated: <*> is added to blk_3222673463853349950 size <*>,1
+251,blk_9072486569292195232,1
+252,blk_566413670355737377,1
+253,blockMap updated: <*> is added to blk_1512923509505250283 size <*>,1
+254,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5955377624764578810 size <*>,1
+255,blockMap updated: <*> is added to blk_3764801892187716497 size <*>,1
+256,blk_5915244038969911075,1
+257,blockMap updated: <*> is added to blk_3243316191092266549 size <*>,1
+258,blk_3206064173813164493 size <*>,1
+259,blockMap updated: <*> is added to blk_6928449948805597176 size <*>,1
+260,blockMap updated: <*> is added to blk_8249475180346179102 size <*>,1
+261,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5953577136151423920 size <*>,1
+262,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6308888821787547357 size <*>,1
+263,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3954386352306480748 size <*>,1
+264,blockMap updated: <*> is added to blk_4812792845864526586 size <*>,1
+265,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5570475465835003801 size <*>,1
+266,blockMap updated: <*> is added to blk_6640583412927022083 size <*>,1
+267,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_2740792916077430444 size <*>,1
+268,blockMap updated: <*> is added to blk_4330492872922862223 size <*>,1
+269,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5813361416484537967 size <*>,1
+270,blockMap updated: <*> is added to blk_4577632468651859430 size <*>,1
+271,blk_4443043493758564822,1
+272,blk_5118390778403008591,1
+273,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_111759050707136656 size <*>,1
+274,/mnt/hadoop/dfs/data/current/subdir49/,1
+275,/mnt/hadoop/dfs/data/current/subdir44/,1
+276,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_2312679955495839894 size <*>,1
+277,blockMap updated: <*> is added to blk_7434237665308221519 size <*>,1
+278,blk_3777389444004341563,1
+279,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4893049344332234616 size <*>,1
+280,blockMap updated: <*> is added to blk_5781791720343455145 size <*>,1
+281,blk_49420377461855719,1
+282,blockMap updated: <*> is added to blk_8323519561483823145 size <*>,1
+283,blockMap updated: <*> is added to blk_4777657900314457675 size <*>,1
+284,Received block blk_5348548743130215090 of size <*> from <*>,1
+285,blockMap updated: <*> is added to blk_1526403491950199810 size <*>,1
+286,blk_4989329877491629543,1
+287,blk_2270593866672608129,1
+288,Received block $<*> of size <*> from $<*>,1
+289,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_9093176996492793041 size <*>,1
+290,blk_7213990003235926706,1
+291,blockMap updated: <*> is added to blk_7275457888263057111 size <*>,1
+292,blk_4588471931728384541,1
+293,blockMap updated: <*> is added to blk_1129715194117079802 size <*>,1
+294,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_6675543598756975559 size <*>,1
+295,blk_2616961363639592748,1
+296,blockMap updated: <*> is added to blk_8521306385156958668 size <*>,1
+297,This will output the following template:,1
+298,This will output:,1
+299,blk_5406084276349645828,1
+300,blk_2247786307216183697,1
+301,blockMap updated: <*> is added to blk_3134656542322449478 size <*>,1
+302,blk_7830067201550857864,1
+303,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5963655886023015963 size <*>,1
+304,blk_5834218936335592624,1
+305,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4385764838827095986 size <*>,1
+306,blockMap updated: <*> is added to blk_707166530951154301 size <*>,1
+307,blk_2253084440592362960,1
+308,blockMap updated: <*> is added to blk_621685330749869453 size <*>,1
+309,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_8663640697928077697 size <*>,1
+310,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_3406384548372443486 size <*>,1
+311,blockMap updated: <*> is added to blk_2460145905812664251 size <*>,1
+312,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4641147544753118391 size <*>,1
+313,blk_7194943883245628915,1
+314,blockMap updated: <*> is added to blk_8005746184358076390 size <*>,1
+315,blockMap updated: <*> is added to blk_7439201509602018752 size <*>,1
+316,<*> to replicate blk_-<*> to datanode(s),1
+317,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_1119272693889755844 size <*>,1
+318,blk_2771018387166611008,1
+319,blockMap updated: <*> is added to blk_8512974147315737844 size <*>,1
+320,Received block blk_427477290315080955 of size <*> from <*>,1
+321,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4170936278386288557 size <*>,1
+322,blk_5813923864071791162,1
+323,blockMap updated: <*> is added to blk_6170586659371027531 size <*>,1
+324,blockMap updated: <*> is added to blk_1447281351164457761 size <*>,1
+325,blockMap updated: <*> is added to blk_1303107722036031233 size <*>,1
+326,blk_4539833452749813987,1
+327,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_2119401975697524206 size <*>,1
+328,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4473390551542202999 size <*>,1
+329,blockMap updated: <*> is added to blk_423916008836295480 size <*>,1
+330,blk_4031738712701565209,1
+331,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5733038550092620376 size <*>,1
+332,blk_241585185788373386,1
+333,BLOCK* ask <*> to delete <*>,1
+334,blk_4774383661473695119,1
+335,blk_9103049989653819836,1
+336,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_7474737521119026445 size <*>,1
+337,blockMap updated: <*> is added to blk_8527475857502481768 size <*>,1
+338,blockMap updated: <*> is added to blk_1793140687921032046 size <*>,1
+339,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4361294871479973840 size <*>,1
+340,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_8527562124953828227 size <*>,1
+341,blockMap updated: <*> is added to blk_2749066163012162435 size <*>,1
+342,blockMap updated: <*> is added to blk_2015610615789582788 size <*>,1
+343,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_2593937801738981947 size <*>,1
+344,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_5489815612272797790 size <*>,1
+345,blockMap updated: <*> is added to blk_6451403582950672007 size <*>,1
+346,blockMap updated: <*> is added to blk_5646792755154529338 size <*>,1
+347,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_1441315972355360459 size <*>,1

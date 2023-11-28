@@ -1,0 +1,155 @@
+,EventTemplate,Occurrences
+0,and,467
+1,,324
+2,:,201
+3,: The IP address of the node that the block is being added to the invalidSet for. *,136
+4,PacketResponder <*> for block <*> terminating.,78
+5,Received <*> of size <*> from <*>,67
+6,"is replaced by ""-<*>"" *",58
+7,Receiving <*> block blk_-<*> for <*> terminating,54
+8,Deleting <*> file <*>,54
+9,Deleting <*> for block <*> file <*>,52
+10,": This is the name of the block (i.e.,",35
+11,: This placeholder represents the value of the,30
+12,is replaced by,30
+13,: The IP address of the server hosting the NameSystem. *,30
+14,So the template of the log message is,23
+15,So the template is,19
+16,"represents the overall structure of the log message, and",18
+17,: The block that was added to the map. *,17
+18,and the block name is,16
+19,: The value of the,16
+20,": This is the ID of the block (i.e.,",16
+21,: This placeholder represents the ID of the block that was added to the map. *,12
+22,). *,10
+23,: This placeholder represents the IP address and port number of the node that added the block to the map. *,9
+24,and the size of the block being added is,8
+25,: This placeholder represents the name of the block being added to the map. *,8
+26,"is replaced by ""<*>"" *",7
+27,": The size of the block being added So, the full template would be:",6
+28,Served <*> for <*> terminating,6
+29,represent the IP address and port number of the node that added the block. *,5
+30,"is a placeholder for the actual file name, and",5
+31,and the size is,5
+32,: This placeholder will be replaced with the value of the,4
+33,is replaced by the value,4
+34,Served <*> for <*>,4
+35,"is the source IP address, and",4
+36,: The IP address of the node that the block is being added to. *,4
+37,: This variable represents the block mentioned in the log message. *,4
+38,and the variables are enclosed in backticks,3
+39,: This is the name of the responder. *,3
+40,: This placeholder represents the size of the block being added to the map. *,3
+41,"is a placeholder for the value of the first field in the log message, which is the block number. *",3
+42,Served <*> for block <*> to <*>,3
+43,": This placeholder represents the ID of the block that was served, which is preceded by a hyphen (-) to indicate that it's a block ID. *",3
+44,: The IP address of the entity adding the block to the invalid set. *,3
+45,: The IP address of the node that is adding the block to the invalid set. *,3
+46,": This placeholder can be replaced with any value, in this case, it is",3
+47,"in the log message. So, the template of the log message is",3
+48,: The ID of the block that was added to the block map. *,3
+49,") in the log message. In this case, it is",2
+50,"BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_-<*>, size <*>",2
+51,: This placeholder represents the number of the block that was served. *,2
+52,: The port number of the system that added the block. *,2
+53,is a placeholder for the value,2
+54,is a placeholder for the actual value of the,2
+55,: The name of the file being deleted. *,2
+56,: This variable represents the block that is being added to the map. *,2
+57,is replaced by the value of,2
+58,<*> for <*> terminating: Got exception while serving <*> to <*>,2
+59,: The ID of the block being added to the map. *,2
+60,BLOCK* <*> for block <*> terminating,2
+61,map key that was updated. *,2
+62,BLOCK* NameSystem.addStoredBlock: <*> updated: <*> is added to blk_-<*> size <*>,2
+63,.,2
+64,placeholder corresponds to the value,2
+65,", and the block name is",1
+66,"is replaced by ""blk_5165786360127153975"" *",1
+67,"BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_-<*>, size <*>.",1
+68,Verification <*> succeeded for block <*>,1
+69,symbol indicating that it's a negative number. *,1
+70,is a number that corresponds to the specific block. *,1
+71,": This placeholder represents the ID of the block that was being served, as specified in the log message. *",1
+72,"represents a placeholder for the block ID, and",1
+73,": The ID of the block (e.g., ""blk_5126469776250053435"") *",1
+74,: This is the block ID or name that was being served. *,1
+75,": This place holder represents the ID of the block that the packet was served from, followed by a number that indicates the specific instance of the block (e.g. blk_2969087638814291714). *",1
+76,is the block number and,1
+77,: The ID of the block that was added. *,1
+78,"is replaced by ""blk_7481361125021302112"" *",1
+79,"is replaced by ""blk_278357163850888"" *",1
+80,Receiving <*> block blk_7672124247291403094 dest: <*>,1
+81,": This placeholder represents the text after the first colon in the log message, which is the name of the block being added. In this case, it is ""blk_5095897972833086609"". *",1
+82,"is replaced by ""blk_446513188203036714"" *",1
+83,"is a placeholder for the actual block ID, and",1
+84,"is a placeholder for the block ID, and",1
+85,". So, the template of the log message is",1
+86,": This placeholder represents the ID of the block that the packet was served from, followed by a number that indicates the specific block (e.g., blk_3169060243663461885). *",1
+87,: This is a placeholder for the block ID that was encountered in the log message. *,1
+88,": The ID of the block (e.g., ""blk_6106884317961925960"") *",1
+89,: This place holder represents the number of the block that the packet was served for. *,1
+90,) because it contains an underscore. *,1
+91,is the variable that represents the block name or ID. *,1
+92,". So, the template of the log message is:",1
+93,: The IP address of the node that the block is being added to the invalidSet on. *,1
+94,"is replaced by ""blk_5277338321835341602"" *",1
+95,"is replaced by ""blk_939695665085237271"" *",1
+96,"parameter in the log message. In this case, it is",1
+97,"is replaced by ""blk_5809900021002850724"" *",1
+98,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_-<*> size <*>,1
+99,"is the pattern that appears between the backticks, and",1
+100,Served <*> to <*>,1
+101,": The ID of the block (e.g., ""blk_4581070264530964999"") *",1
+102,Got exception while serving <*> to <*>,1
+103,": The number of digits in the block ID (e.g., ""<*>"") *",1
+104,BLOCK* <*> for block <*> updated: <*> is added to <*>,1
+105,: This placeholder represents the name of the block that was added to the map. *,1
+106,: This indicates that a new block has been added to the blockchain with a specific ID. *,1
+107,"is replaced by ""blk_578261619176233743"" *",1
+108,", and",1
+109,": The ID of the block (e.g., ""blk_6702054389824523327"") *",1
+110,": This placeholder represents the type of exception that occurred while serving the request. So, in this case, the template would be:",1
+111,"in the log message. So, the template of the log message is:",1
+112,"is a placeholder for the actual block name or ID, and",1
+113,: The IP address of the node that is storing the block. *,1
+114,: The ID of the block containing the file. *,1
+115,: The subdirectory where the block is located. *,1
+116,Deleting <*> for file <*> terminating,1
+117,"is replaced by ""blk_1151012386083696649"" *",1
+118,"is replaced by ""blk_5938666289587069744"" *",1
+119,"is replaced by ""blk_1779145401405339993"" *",1
+120,in this case. So the template for this log message is,1
+121,": This placeholder represents the ID of the block that the packet was served from, followed by a number that indicates the specific block (e.g., blk_2262752117989012641). *",1
+122,", which is also",1
+123,"is replaced by ""blk_1833093108290599780"" *",1
+124,": This placeholder represents any value that appears between ""blockMap updated"" and the end of the message. In this case, it is ""<*>"". *",1
+125,"is replaced by ""blk_1756478622414930264"" *",1
+126,"field in the log message. In this case, it is",1
+127,": This is the ID of the block being processed (i.e.,",1
+128,"is replaced by ""blk_6308888821787547357"" *",1
+129,BLOCK* NameSystem updated: <*> is added to blk_28482383,1
+130,"is replaced by ""blk_5813361416484537967"" *",1
+131,"is a placeholder for the actual file path, and",1
+132,"is a placeholder for the directory path where the file is located, which will also be replaced with the actual value in the log message. So the template of the log message would be:",1
+133,": This variable represents the file being deleted, which is also delimited by backticks (""). So the full template for this log message is:",1
+134,dest terminating,1
+135,"is replaced by ""blk_1526403491950199810"" *",1
+136,: The name of the block being added. *,1
+137,PacketResponder <*> for block <*> terminating,1
+138,: This indicates the ID of the block that the node is being added to. *,1
+139,"is replaced by ""blk_3134656542322449478"" *",1
+140,"is replaced by ""blk_5963655886023015963"" *",1
+141,": This is the name of the block being processed (i.e.,",1
+142,: This placeholder will be replaced with the number of the block being added. *,1
+143,"BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to blk_4170936278386288557, size <*>",1
+144,BLOCK* NameSystem.addStoredBlock: <*> updated: <*> is added to <*> size <*>,1
+145,"is a placeholder for the source IP address, and",1
+146,: The IP address of the node that is adding the block to its invalidSet. *,1
+147,"are placeholders for the actual values of the responder ID and block ID, respectively. These values can be extracted by replacing the placeholders with the corresponding values from the log message. Therefore, the template of the input log message is",1
+148,PacketResponder <*> for block blk_-<*> terminating,1
+149,Receiving <*> block <*> dest: <*>,1
+150,BLOCK* NameSystem.allocateBlock: <*>,1
+151,"is replaced by ""blk_2749066163012162435"" *",1
+152,"is replaced by ""blk_2015610615789582788"" *",1
+153,: The ID of the block that was added to the map. *,1

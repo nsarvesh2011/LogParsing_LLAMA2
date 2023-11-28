@@ -1,0 +1,210 @@
+,EventTemplate,Occurrences
+0,<*>,1020
+1,data_thread() got not answer from any <*> datasource,334
+2,{<*>},68
+3,NEW SWEEP,62
+4,No topology change,62
+5,No configuration change required,62
+6,<*> <*> <*>,24
+7,session opened for <*> by ({uid=<*>}),19
+8,A_net,15
+9,({<*>}),14
+10,unable to qualify <*>,10
+11,PCI Interrupt Routing Table <*>,10
+12,DHCPREQUEST for <*> (<*>) from <*>:e3:ba:c3 via eth1: unknown lease <*>.,9
+13,"from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=",7
+14,Wait for ready failed before probe !,6
+15,remove <*>,6
+16,How do you extract the template from this log message?,5
+17,DHCPDISCOVER from <*>,5
+18,DHCPOFFER on <*> to <*> via <*>,5
+19,Output:,5
+20,L2 cache: <*>,5
+21,Trace cache: <*> L1 D cache: <*>,5
+22,"<*> -> GSI <*> (level, low) -> IRQ <*>",4
+23,"(""C"") <*>-<*> Netfilter core team",4
+24,succeeded,4
+25,data source name,4
+26,Local disconnected: Connection closed.,3
+27,'Connection closed.',3
+28,What is the template of the input log message?,3
+29,DHCPACK on <*> via eth1,3
+30,DHCPREQUEST for <*> via <*>,3
+31,<*>.rrd,3
+32,(<*>),3
+33,0x1,3
+34,Processor <*> (supports <*>),3
+35,ordered_data_mode,3
+36,startup succeeded,3
+37,) unknown;,2
+38,<*>:0e.<*>,2
+39,),2
+40,Using <*>,2
+41,allocating divert_blk for <*>,2
+42,not allocating divert_blk for <*>,2
+43,Intel(R) PRO/1000 Network Connection,2
+44,DONE,2
+45,RAID arrays.,2
+46,autorun <*>: John <*>: <*> <*>: New York,2
+47,"0x60,0x64",2
+48,"connection from ""<*>""",2
+49,"User <*>#, coming from <*>#, authenticated.",2
+50,Now running on <*> privileges.,2
+51,an3,2
+52,This will output,2
+53,Warning: we failed to resolve data source name,2
+54,Expected output:,2
+55,Reading included configuration file: <*>,2
+56,removing daytime <*>,2
+57,removing echo <*> <*>,2
+58,<200511091901.jA9J1UvC004306@eadmin1>,1
+59,"from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<200511091901.jA9J1WSU011176@badmin1>, relay=",1
+60,START: tftp pid=<*> from=<*>,1
+61,kernel time sync disabled <*>,1
+62,time reset +<*>,1
+63,Received <*> packets,1
+64,LOCAL(<*>),1
+65,kernel time sync enabled <*>,1
+66,(<*>) CMD (<*> <*>),1
+67,'(<*>) CMD (<*> b)',1
+68,c,1
+69,d,1
+70,'(<*>) CMD (<*> e),1
+71,) unknown; sleeping for retry,1
+72,aadmin1,1
+73,sleeping for retry,1
+74,gpg_key,1
+75,S0 S4 S5,1
+76,DSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000e) @ 0x0000000000000000,1
+77,FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0,1
+78,HPET (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd81c,1
+79,HPET id: 0xffffffff base: 0xfed00000,1
+80,INT_SRC_OVR,1
+81,"INT_SRC_OVR {bus=<*>, bus_irq=<*>, global_irq=<*>, high=level}",1
+82,address[0xfec00000],1
+83,address[0xfec80000],1
+84,address[0xfec83000],1
+85,IRQ0 used by override.,1
+86,IRQ2 used by override.,1
+87,IRQ9 used by override.,1
+88,Interpreter enabled,1
+89,0x01 0x00 enabled,1
+90,0x02 0x06,1
+91,0x03 0x01 enabled,1
+92,0x04 0x07,1
+93,0x,1
+94,0xfee00000,1
+95,MADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd724,1
+96,MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854,1
+97,PCI Interrupt Link [LNKA] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+98,<*> <*> <*> <*> <*> <*> *11 <*>,1
+99,PCI Interrupt Link [LNKC] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+100,PCI Interrupt Link [LNKD] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+101,PCI Interrupt Link [LNKE] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+102,PCI Interrupt Link [LNKF] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+103,PCI Interrupt Link [LNKG] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+104,PCI Interrupt Link [LNKH] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>),1
+105,PCI <*> Bridge <*>,1
+106,<*>:0d.<*>,1
+107,Power Button <*>,1
+108,Processor <*> (supports C1),1
+109,RSDP (v000 <*>) @ 0x00000000000fd650,1
+110,RSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd664,1
+111,MSFT 0x0100000a,1
+112,Subsystem revision <*>,1
+113,Using <*> for interrupt routing,1
+114,Intel(R) Xeon(TM) CPU <*>.60GHz stepping <*>,1
+115,VGA+ <*>,1
+116,sys_ia32.c,1
+117,"apic_id <*>, version <*>, address {<*>}, GSI <*>",1
+118,"<*>,version,address,GSI",1
+119,"<*>,<*>,<*>,<*>-<*>",1
+120,1024Kbytes,1
+121,PCI Hot Plug PCI Core version: <*>,1
+122,What is the template of the input log?,1
+123,Registered protocol family <*>,1
+124,family <*>,1
+125,bus <*>,1
+126,Transparent bridge - <*>:1e.<*>,1
+127,e0000000,1
+128,Using configuration type <*>,1
+129,Compressed image,1
+130,Disabled at <*>,1
+131,Initializing.<*>,1
+132,Registering netfilter hooks,1
+133,"{""start_time"": ""<*>-<*>-14T15:<*>:00Z"", ""end_time"": ""<*>-<*>-14T16:<*>:00Z""}",1
+134,hook_name,1
+135,<*> <*>,1
+136,MegaRAID Model: <*> RAID1 139G Rev: <*>,1
+137,PE/PV Model: 1x2 SCSI BP Rev: <*>,1
+138,initialized,1
+139,<*>-ioctl,1
+140,USB HID core driver,1
+141,eth0:e1000_watchdog:NIC Link is Up <*> Mbps Full Duplex,1
+142,no floppy controllers found,1
+143,RNG_not_detected,1
+144,Assuming 33MHz system bus speed for PIO modes; override with idebus=<*>,1
+145,cmd fd(<*>) cmd(<*>),1
+146,Installing <*> data,1
+147,"MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+148,Fri Dec <*> <*> EST <*>,1
+149,Mon Sep <*> <*> EDT <*>,1
+150,version:516A bios:H418,1
+151,0x1028:0x0013:0x1028:0x016c,1
+152,common for all mice,1
+153,Version <*> Starting,1
+154,driver_name=<*>,1
+155,scanning <*> [Phy <*>] for non-raid devices,1
+156,scanning <*>,1
+157,asking for cache data failed,1
+158,write through,1
+159,{<*>} {<*>},1
+160,syslog-<*>,1
+161,syslog-ng version <*> starting,1
+162,<*> MHz,1
+163,HPET_YEAR=<*> HPET_MONTH=<*> HPET_DAY=<*> HPET_HOUR=<*> HPET_MINUTE=<*> HPET_SECOND=<*>,1
+164,Creating <*> entries,1
+165,hiddev,1
+166,new,1
+167,usbfs,1
+168,usbhid,1
+169,failed with error -<*>,1
+170,failed,1
+171,an270 an271 an272 an273 an274 an275 an276 an277 an278 an279 an280 an281 an282 an283 an284 an285 an286 an287 an288 an289 an290 an291 an292 an293 an294 an295 an296 an297 an298 an299 an300,1
+172,Input: `an654 an655 an656 an657 an658 an659 an660 an661 an662 an663 an664 an665 an666 an667 an668 an669 an670 an671 an672 an673 an674 an675 an676 an677 an678 an679 an680 an681 an682 an683 an684 an685 an686 an687 an688 an689 an690 an691 an692 an693 an694 an695 an696 an697 an698 an699 an700 an701 an702,1
+173,an782,1
+174,bn164,1
+175,bn270,1
+176,Input: `bn398 bn399 bn400 bn401 bn402 bn403 bn404 bn405 bn406 bn407 bn408 bn409 bn410 bn411 bn412 bn413 bn414 bn415 bn416 bn417 bn418 bn419 bn420 bn421 bn422 bn423 bn424 bn425 bn426 bn427 bn428 bn429 bn430 bn431 bn432 bn433 bn434 bn435 bn436 bn,1
+177,bn548,1
+178,"{{""Warning: we failed to resolve data source name ""}}dadmin2{{"" dadmin3 dadmin4""}}",1
+179,bn804,1
+180,bn910,1
+181,"You will see a list of <*> variables, each with a name and a value. The values are the actual data that was tried to be resolved but failed.",1
+182,variable: <*>,1
+183,cn782,1
+184,Abstraction: ``` <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+185,"You will see a list of <*> variables, each with a name and a value. The values are separated by spaces. Your task is to write a Python script that reads the log message and prints out the corresponding template for each variable. For example, if the log message is: ``` Warning: we failed to resolve data source name dn14 dn15 dn16 dn17 dn18 dn19 dn20 dn21 dn22 dn23 dn24 dn25 dn26 dn27 dn28 dn29 dn30 dn31 dn32 dn33 dn34 dn35 dn36 dn37 dn38 dn39 dn40 dn41 dn42 dn43 dn44",1
+186,"You will see a list of <*> data sources, each with a name and a warning message. The output should be a single line containing the template for all the warning messages, with placeholders for the data source names.",1
+187,Input: `Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> {,1
+188,log message,1
+189,data_source_name,1
+190,"Note: The log message may contain placeholders for variables, which should be replaced with the actual values.",1
+191,Warning: we failed to resolve trusted host name <*> <*>,1
+192,Server listening on <*> port <*>.,1
+193,error: Bind to port <*> on <*> failed: Address already in use.,1
+194,Changing permissions on special file <*>,1
+195,xinetd succeeded,1
+196,Reading included configuration file: <*> [file=<*>] [line=<*>] <*>,1
+197,"{file=""<*>""}",1
+198,Reading included configuration file: <*>/<*>,1
+199,"{{""Reading included configuration file:""}} {{ ""<*>"" }} {{ ""[file=""}} {{ ""<*>"" }} {{""]}}",1
+200,Started working: <*> available service,1
+201,ftp_remove <*> <*>,1
+202,HP LaserJet P1005,1
+203,removing telnet,1
+204,libwrap loadavg options compiled in,1
+205,\[(\w+)\],1
+206,). <*>. You can then use the,1
+207,button to abstract the variables and display them in a table. Here's an example of how the filtered log messages might look:,1
+208,"<*>,Temperature changed -<*> Celsius to <*> Celsius since last report",1

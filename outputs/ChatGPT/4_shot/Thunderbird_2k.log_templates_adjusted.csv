@@ -1,0 +1,148 @@
+,EventTemplate,Occurrences
+0,"Note: The placeholders are case-sensitive, so make sure to use the correct casing when replacing them with their corresponding values.",697
+1,"synchronized to <*>, stratum <*>",570
+2,ib_sm_sweep.c:<*>: ********************** NEW SWEEP ********************,62
+3,ib_sm_sweep.c:<*>: No topology change,62
+4,ib_sm_sweep.c:<*>: No configuration change required,62
+5,data_thread (<*>): got not answer from any <*>,60
+6,<*>,47
+7,data_thread (<*>): got not answer from any <*> datasource,32
+8,Please provide the output of the template delimited by backticks.,32
+9,data_thread (<*>): got not answer from any [Thunderbird_B3] datasource,30
+10,session closed (<*>),24
+11,"Please note that the placeholders are not necessarily in the same order as the original log message, and some placeholders may be empty or missing.",20
+12,removing <*>,18
+13,: This placeholder represents the process ID of the system that generated the log message. *,15
+14,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+15,unable to qualify <*> -- using short name,10
+16,"to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>], dsn=<*>, stat=Deferred: Connection refused by <*>",10
+17,Please provide the log message template delimited by backticks.,10
+18,DHCPREQUEST (<*>): unknown lease <*>.,9
+19,Please provide the input log's template delimited by backticks.,8
+20,"from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost",6
+21,Wait for <*> failed before probe !,6
+22,DHCPDISCOVER (<*>): via <*>,5
+23,DHCPOFFER (<*>): <*> via <*>,5
+24,My (<*>) unknown; sleeping for retry,5
+25,"Note: The placeholders are in lowercase, and the variables are in uppercase.",5
+26,Physical Processor ID: <*>,5
+27,"Reading included configuration file: <*>, [line=<*>]",5
+28,LAPIC_NMI (<*>): high edge lint (<*>),4
+29,": This part of the template indicates that the update was attempted with a time difference of at least one second from the previous update. Therefore, the log message can be abstracted as",4
+30,"Please note that the templates are case sensitive, so make sure to match the case of the placeholders in the log message with the case of the variables in the template.",4
+31,Please provide the log message delimited by backticks.,4
+32,"from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>",4
+33,Local (<*>),3
+34,connection lost: {'connection': 'closed.'},3
+35,DHCPACK (<*>): <*>,3
+36,DHCPREQUEST (<*>): from <*> via <*>,3
+37,Please provide the template of the log message.,3
+38,"Please note that the templates are case-sensitive, so make sure to match the correct case when replacing variables with their corresponding values.",3
+39,"PCI Interrupt Link (<*>): *0, disabled.",3
+40,mounted <*> with ordered data mode.,3
+41,Please provide the output of the log message template.,3
+42,startup (<*>): succeeded,3
+43,"Note: The placeholders are case-sensitive, so make sure to use the correct casing for the variables you want to extract.",2
+44,IOAPIC (<*>): <*>,2
+45,"apic_id <*>, version <*>, address <*>, GSI <*>",2
+46,*,2
+47,allocating <*> for <*>,2
+48,"Note: The placeholders are case sensitive, so make sure to use the correct casing when replacing them with their corresponding values.",2
+49,autorun (<*>) DONE.,2
+50,autorun (<*>),2
+51,"Note: The placeholders are not necessarily in the same order as the original log message, and some may be missing if they are not present in the log message.",2
+52,connection (<*>),2
+53,"User (<*>)#, coming from (<*>), authenticated.",2
+54,Now running on,2
+55,Please provide the template of the log message delimited by backticks.,2
+56,succeeded,2
+57,. *,2
+58,kernel time sync disabled <*>,1
+59,time (<*>),1
+60,"Note: The placeholders are denoted in bold, and the variables are denoted in plain text.",1
+61,kernel time sync enabled (<*>),1
+62,bash (<*>) CMD (<*> a),1
+63,bash (<*>) CMD (<*> b),1
+64,bash (<*>) CMD (<*> d),1
+65,bash (<*>) CMD (<*> e),1
+66,"Please note that the templates are case sensitive, so make sure to match the case of the placeholders in the output.",1
+67,(<*>),1
+68,"Please note that the log messages are not always in a consistent format, and some may contain placeholders for variables that are not always present.",1
+69,HPET id: <*> base: <*>,1
+70,IOAPIC (<*> <*> <*>),1
+71,IR0 used by <*>.,1
+72,IRQ2 used by <*>.,1
+73,<*>: used by override.,1
+74,"Note: The placeholders are not limited to the ones provided in the examples, you can use any variable available in the log message.",1
+75,"Note: The placeholders are not limited to the ones I provided, you can use any variable in the log message.",1
+76,"Please note that the placeholders are not limited to the ones I provided, you can use any variable in the log message as long as it is enclosed by backticks.",1
+77,MADT (<*> @ <*>),1
+78,MCFG (<*> @ <*>),1
+79,PCI Interrupt Link (<*>) <*>,1
+80,PCI Interrupt Link (<*>): disabled.,1
+81,PCI <*> Bridge (<*>): <*>,1
+82,:,1
+83,Note: The placeholders are case-sensitive.,1
+84,print(),1
+85,"RSDT (<*>): @ <*>,",1
+86,Subsystem (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),1
+87,VGA+ <*>,1
+88,sys_ia32.c (<*>): v <*> 2002/03/24 <*> ak Exp,1
+89,GSI <*>,1
+90,"routing cache hash table of <*> buckets, <*>",1
+91,PCI Hot Plug <*>: <*>,1
+92,and,1
+93,. The template of this log message is,1
+94,Please provide the corresponding template for this log message.,1
+95,Please provide the corresponding template for the log message.,1
+96,Compressed <*> found at block <*>,1
+97,Disabled at runtime.: illegal attempt to update using time <*> when last update time is <*> (minimum one second step),1
+98,Initializing <*>,1
+99,starting (<*>),1
+100,Unregistering <*>,1
+101,: This placeholder represents the time at which the update occurred. *,1
+102,Direct-Access <*>,1
+103,Processor <*>,1
+104,"Please note that the templates are case-sensitive, so make sure to match the correct case when using them.",1
+105,Mounted <*>.,1
+106,"Please note that the placeholders are not limited to the ones I provided, you can use any variable in the log message.",1
+107,"PE/PV Model:<*>, Rev:<*>",1
+108,initialized (<*>),1
+109,passed,1
+110,eth0: <*> Link is Up <*> Mbps Full Duplex,1
+111,e1000_probe (<*>): Intel(R) PRO/1000 Network Connection,1
+112,no <*> found,1
+113,RNG (<*>): not detected,1
+114,"Note: The placeholders are denoted in bold, and the variables to be replaced are in plain text.",1
+115,"Note: The placeholders are not limited to the examples provided, you can use any variable in the log message that you want to extract.",1
+116,"Note: The log messages are not always in the same format, so you may need to adjust the templates accordingly.",1
+117,PS/2 mouse device common for all <*>,1
+118,starting <*>: succeeded,1
+119,"Please note that the templates are case-sensitive, so make sure to match the casing of the placeholders in the log message with the corresponding variables in the template.",1
+120,scanning <*> [Phy <*>] for non-raid devices,1
+121,scanning <*> [virtual] for logical drives,1
+122,assuming <*>: write through,1
+123,Note: The placeholders are not limited to the examples provided and can be any variable present in the log message.,1
+124,"KBD port at <*>, irq <*>",1
+125,startup succeeded,1
+126,Using <*> based timekeeping.,1
+127,probe (<*>) failed with error -<*>,1
+128,Mounting <*>: succeeded,1
+129,Note: The log message may contain placeholders for variables that are not present in the input log.,1
+130,Please provide the output you want to get.,1
+131,,1
+132,Warning: we failed to resolve <*>,1
+133,listening (<*>),1
+134,"Note: The placeholders are not limited to the ones provided, you can add more as needed.",1
+135,startup succeeded (<*>),1
+136,: The path to the included configuration file. *,1
+137,"In this case, the template is",1
+138,"Reading included configuration file: <*>, line <*>",1
+139,Reading <*>: <*>,1
+140,"is replaced with the line number of the configuration file, which in this case is",1
+141,"is replaced with the actual line number of the configuration file, which in this case is",1
+142,is the name of the included configuration file. *,1
+143,"is replaced with the line number of the line being read from the configuration file, which in this case is",1
+144,"is replaced with the line number of the line being read from the configuration file. In this case, it is",1
+145,": This part of the template indicates that the update was attempted using a time that is within one second of the previous update time. Therefore, the log message can be abstracted as",1
+146,": This is a fixed string that indicates the minimum time step allowed for updates. Therefore, the log message can be abstracted as",1
